@@ -10,8 +10,17 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-i18next": "^11.7.4",
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-localize": "^2.0.1",
+    "react-native-map-link": "^2.7.19",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-screens": "^2.15.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
