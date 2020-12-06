@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Router, Scene } from 'react-native-router-flux';
+import { Router, Scene, Modal } from 'react-native-router-flux';
 
 //Screens
 import HOME from '../source/HomeScreen';

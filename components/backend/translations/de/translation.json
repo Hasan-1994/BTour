@@ -1,0 +1,61 @@
+{
+    "Alexanderplatz": {
+        "id": 1,
+        "name": "Alexanderplatz",
+        "discription": "Der Alexanderplatz befindet sich im Stadtteil Mitte und ist der einer der bekanntesten und auch größten Plätze Berlins. Benannt wurde er nach dem, ehemaligen Kaiser Russlands, Alexander I. Der Alexanderplatz ist das östliche Zentrum Berlins und somit ein sehr wichtiger Verkehsknotenpunkt. Mitten auf dem Alexanderplatz befindet sich deutschlands Größter Turm. Der Fernsehturm, welches eine größe von 368 Metern hat ist zugleich auch das größte öffentlich zugängliche Gebäude Europas ist. Innerhalb des Turmes hat man ein spektakulären 360° Blick, welches Berlin zu füßen legt.",
+        "latitude": 52.5219846,
+        "longitude": 13.4111173
+    },
+    "BrandenburgerTor":{
+        "id": 2,
+        "name": "Brandenburger Tor",
+        "discription": "Das Brandenburger Tor wurde zwischen den Jahren 1788 und 1791 erbaut und diente vorerst zur ersetzung der Zollmauer. Das Tor besteht aus zwölf dorischen Säulen, sechs auf jeder Seite. Die Säulen bilden zusammen fünf Durchgängen. Oben auf dem Tor sieht man heute Victoria, die römischen Göttin des Sieges. Sie steht in einem Wagen, der von vier Pferden gezogen wird, die Quadriga. In der heutigen Zeit, ist das Brandenburger Tor ist zusammen mit der Straße des 17. Juni ein Sammelpunkte in Berlin. Hier finden mehr als eine Million Menschen Platz. Regelmäßig finden Bühnenshows, Partys, und Feuerwerke statt. ",
+        "latitude": 52.516275,
+        "longitude": 13.377704
+    },
+    "EastSideGalary":{
+        "id": 3,
+        "name": "East Side Galary",
+        "discription": "Das längste noch erhaltene Teilstück der Berliner Mauer zwischen Ostbahnhof und Oberbaumbrücke ist als East Side Gallery weltberühmt geworden. 118 KünstlerInnen aus 21 Ländern gestalteten nach dem Mauerfall auf 1,3 Kilometern des früheren Grenzelements die längste Open-Air-Gallery der Welt. Als Symbol der Freude über die Überwindung der deutschen Teilung und zugleich als historisches Zeugnis des unmenschlichen DDR-Grenzregimes ist die East Side Gallery heute einer der meist besuchten touristischen Orte Berlins.Das längste noch erhaltene Teilstück der Berliner Mauer zwischen Ostbahnhof und Oberbaumbrücke ist als East Side Gallery weltberühmt geworden. 118 KünstlerInnen aus 21 Ländern gestalteten nach dem Mauerfall auf 1,3 Kilometern des früheren Grenzelements die längste Open-Air-Gallery der Welt. Als Symbol der Freude über die Überwindung der deutschen Teilung und zugleich als historisches Zeugnis des unmenschlichen DDR-Grenzregimes ist die East Side Gallery heute einer der meist besuchten touristischen Orte Berlins.",
+        "latitude": 52.5090062,
+        "longitude": 13.4324769
+    },
+    "Kudam":{
+        "id": 4,
+        "name": "Kurfüstendamm - Kudam",
+        "discription": "Der Kurfürstendamm wurde um 1542 als Dammweg vom Berliner Stadtschloss zum Jagdschloss Grunewald angelegt und diente zunächst als Reitweg für den Kurfürsten Joachim II. Im Zweiten Weltkrieg wurden erhebliche Teile der Bebauung durchLuftangriffe zerstört. Der Wiederaufbau erfolgte mit dem Ziel, den Kurfürstendamm in der Zeit des Kalten Krieges zum Schaufenster des Westens und Symbol für das Wirtschaftswunder auszubauen.  Nach der Teilung der Stadt entwickelte sich nach der Währungsreform 1948 hier das Geschäftszentrum West-Berlins, die City West, insbesondere am Ostende in Richtung des Bahnhofs Zoo.  Der umgangssprachliche Begriff Ku’damm wurde zum Inbegriff. ",
+        "latitude": 52.5044145,
+        "longitude": 13.3351804
+    },
+    "Museumsinsel":{
+        "id": 5,
+        "name": "Museumsinsel",
+        "discription": "Zwischen Spree und Kupfergraben liegt die weltberühmte Museumsinsel, deren Gebäude die archäologischen Sammlungen und die Kunst des 19. Jahrhunderts beherbergen. Ausgangspunkt des zahlreiche Bauten umfassenden Ensembles war die Fertigstellung des nach Plänen von Schinkel erbauten Alten Museums im Jahre 1830. 1930 wurden mit dem Pergamonmuseum die Bauten auf der Museumsinsel fertiggestellt.Im Jahr 1999 wurde das Gebäudeensemble der Museumsinsel von der UNESCO zum Weltkulturerbe ernannt. Die Museumsinsel besteht aus fünf Museumsbauten der Stiftung Preußischer Kulturbesitz, in denen wichtige Bestände verschiedener Berliner Museen zusammengeführt werden: Das Pergamonmuseum, dem alten Museum, dem neuen Museum, der alten Nationalgalerie und dem Bode-Museum.",
+        "latitude": 52.515717,
+        "longitude": 13.3970524
+    },
+    "PotsdamerPlatz":{
+        "id": 6,
+        "name": "Potsdamer Platz",
+        "discription": "Alles begann mit dem 'Platz vor dem Potsdamer Tor', einer fünfarmigen Straßenkreuzung vor dem Potsdamer Tor – einem der 14 Berliner Stadttore. 1838 wurde hier der Potsdamer Fernbahnhof eröffnet. Binnen weniger Jahrzehnte entwickelte sich der Platz zu einem großstädtischen Warenumschlagplatz und sogar zu einem der belebtesten Plätze Europas.Alles begann mit dem „Platz vor dem Potsdamer Tor“, einer fünfarmigen Straßenkreuzung vor dem Potsdamer Tor – einem der 14 Berliner Stadttore. 1838 wurde hier der Potsdamer Fernbahnhof eröffnet. Binnen weniger Jahrzehnte entwickelte sich der Platz zu einem großstädtischen Warenumschlagplatz und sogar zu einem der belebtesten Plätze Europas.Im Zweiten Weltkrieg wurde der Potsdamer Platz fast vollständig zerstört. Nur das Weinhaus Huth und die Ruine des Hotels Esplanade standen 1945 noch auf dem zuvor so lebendigen Platz. Nach Kriegsende wurde der Potsdamer Platz zunächst zum „Dreiländereck“ zwischen dem sowjetischen, dem britischen und dem amerikanischen Sektor und galt als blühender Schwarzmarkt.Von 1961, dem Jahr des Mauerbaus, bis 1989 war der Potsdamer Platz mit dem breitesten Todesstreifen Berlins eine große innerstädtische Brache. Erst mit dem Fall der Berliner Mauer am 9. November 1989 rückte das Gelände plötzlich wieder ins Zentrum des Interesses. Quasi über Nacht stellte sich an dem jahrzehntelang brachliegenden Platz eine völlig neue Situation ein.Jeden Tag zieht der Potsdamer Platz 110.000 Besucher aus Berlin, dem In- und Ausland an: Sie genießen das facettenreiche Angebot mit komfortablen Büros, ausgedehnten Grünflächen, erstklassigem Entertainment sowie vielfältigen Gastronomie- und Shoppingangeboten.",
+        "latitude": 52.5096488,
+        "longitude": 13.3737554
+    },
+    "Reichstag":{
+        "id": 7,
+        "name": "Reichstag",
+        "discription": "Das Reichstagsgebäude wurde im Jahre 1894 erbaut. Die markante Kuppen, welches von den vier Eckturmen geprägt wird war zur damaligen Zeit eine technische Meisterleistung, sowohl aus Gründen der Lichtwirkung im Gebäude als auch aus Gründen der ästhetischen Gesamtwirkung des Gebäudes für unverzichtbar. Das Reichstagsgebäude ist seit 1999 Sitz des Deutschen Bundestages. Seit 1994 tritt hier auch die Bundesversammlung zur Wahl des deutschen Bundespräsidenten zusammen. ",
+        "latitude": 52.518620,
+        "longitude": 13.3739985
+    },
+    "Flags":{
+        "DE": "https://i.ibb.co/yB2ZgW9/deutschland-1.png"
+    },
+    "BUTTONS":{
+        "ALERT_NOTAVABLIE": "Diese Option ist derzeit nicht verfügbar"
+    },
+    "ViewText":{
+        "Navigate": "Navigiere nach  "
+    }
+
+}
