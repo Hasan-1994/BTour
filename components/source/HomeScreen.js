@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {View, Text, FlatList, TouchableOpacity } from 'react-native';
 
 import { navigateByItemId } from '../route/screenChooser';
+
 export default class HomeScreen extends Component{
     constructor(props) {
         super(props);
@@ -27,6 +28,7 @@ export default class HomeScreen extends Component{
         const { data, isLoading,  } = this.state;
         return(
             <View>
+
                  { <FlatList
                     data={data}
                     keyExtractor={({ id }, index) => id}

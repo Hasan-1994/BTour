@@ -6,14 +6,16 @@ import { View, Text } from 'react-native';
 import I18n from '../../backend/i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
+import LangChan from '../../backend/Language/languagePicker'
 
 
-import MAP from '../localisation/maps'
+import MAP from '../localisation/maps2'
  function alexanderplatz (props) {
     const { t, i18n } = useTranslation();
         return(
             
             <View>
+                <LangChan/>
                 <Text>
                     Alexanderplatz
                 </Text>

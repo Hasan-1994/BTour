@@ -10,6 +10,7 @@ i18n
 .init({
     lng: getLocales()[0].languageCode,
     fallbackLng: 'de',
+    //changeLanguage:[],
     resources:{
         de:{
             translation: de

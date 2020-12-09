@@ -16,5 +16,5 @@ module.exports = StyleSheet.create({
         width: '100%',
         opacity: 0.6,
         position: 'absolute',
-      },
+    },
 })
