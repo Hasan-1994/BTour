@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {View, Text, FlatList, TouchableOpacity } from 'react-native';
 
 import { navigateByItemId } from '../route/screenChooser';
-
+import Flag from '../backend/Language/languageButton'
 export default class HomeScreen extends Component{
     constructor(props) {
         super(props);
@@ -27,8 +27,9 @@ export default class HomeScreen extends Component{
     render(){
         const { data, isLoading,  } = this.state;
         return(
+            
             <View>
-
+                
                  { <FlatList
                     data={data}
                     keyExtractor={({ id }, index) => id}
@@ -42,6 +43,7 @@ export default class HomeScreen extends Component{
 
                     )}
                 />}
+                <Flag/>
             </View>
         )
     }

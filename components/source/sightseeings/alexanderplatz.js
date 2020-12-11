@@ -7,6 +7,7 @@ import I18n from '../../backend/i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
 import LangChan from '../../backend/Language/languagePicker'
+import LangBtn from '../../backend/Language/languageButton'
 
 
 import MAP from '../localisation/maps2'
@@ -27,6 +28,7 @@ import MAP from '../localisation/maps2'
                     {t("ViewText.Navigate")} {t('Alexanderplatz.name')}
                 </Text>
                 <MAP/>
+                <LangBtn/>
             </View>
         )
 
