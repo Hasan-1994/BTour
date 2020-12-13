@@ -40,5 +40,15 @@ module.exports = StyleSheet.create({
     flag:{
          width: '25%',
          height: '20%'
+    },
+    Loader:{
+        borderColor: 'red',
+        borderWidth: 1,
+        borderRadius: 5,
+        flex: 1,
+        justifyContent: "center",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        padding: '50%'
     }
 })

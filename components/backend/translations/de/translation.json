@@ -49,7 +49,10 @@
         "longitude": 13.3739985
     },
     "Flags":{
-        "DE": "https://i.ibb.co/yB2ZgW9/deutschland-1.png"
+        "DE": "https://i.ibb.co/yB2ZgW9/deutschland-1.png",
+        "TR": "https://i.ibb.co/QpG5Drx/iconfinder-263-Ensign-Flag-Nation-turkey-2634440.png",
+        "EN": "https://i.ibb.co/g6c8xqX/iconfinder-United-Kingdom-2361499.png",
+        "HAM_ICON": "https://i.ibb.co/fvr8J92/Unbenannt-1.png"
     },
     "BUTTONS":{
         "ALERT_NOTAVABLIE": "Diese Option ist derzeit nicht verfügbar"

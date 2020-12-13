@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import {View, Text, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity, ActivityIndicator } from 'react-native';
 
 import { navigateByItemId } from '../route/screenChooser';
 import Flag from '../backend/Language/languageButton'
-export default class HomeScreen extends Component{
+import style from '../style/style';
+export default class HomeScreen extends Component {
     constructor(props) {
         super(props);
 
@@ -24,26 +25,31 @@ export default class HomeScreen extends Component{
                 this.setState({ isLoading: false })
             })
     }
-    render(){
-        const { data, isLoading,  } = this.state;
-        return(
-            
+    render() {
+        const { data, isLoading, } = this.state;
+        return (
+
             <View>
-                
-                 { <FlatList
-                    data={data}
-                    keyExtractor={({ id }, index) => id}
-                    renderItem={({ item }) => (
 
-                        <TouchableOpacity
-                            onPress={() => { navigateByItemId(item.id) }}>
-                            <Text>{item.name}</Text>
-                        </TouchableOpacity>
+                { isLoading ? <View style={style.Loader}>
+                    <Text>
+                        Fetching Data
+                    </Text>
+                    <ActivityIndicator size='large'  color="#141194" />
+                                </View> : <FlatList
+                        data={data}
+                        keyExtractor={({ id }, index) => id}
+                        renderItem={({ item }) => (
+
+                            <TouchableOpacity
+                                onPress={() => { navigateByItemId(item.id) }}>
+                                <Text>{item.name}</Text>
+                            </TouchableOpacity>
 
 
-                    )}
-                />}
-                <Flag/>
+                        )}
+                    />}
+                <Flag />
             </View>
         )
     }
