@@ -9,7 +9,7 @@ import {
 
 import I18n from '../i18n/i18next'
 var style = require('../../style/style')
-var Flag = require('../translations/de/translation.json')
+//var Flag = require('../translations/de/translation.json')
 
 function languageButton (){
 
@@ -18,7 +18,7 @@ function languageButton (){
             <TouchableOpacity style={style.buttonContainer}
                 onPress={() => I18n.changeLanguage('de')}>
                 <Image style={style.flag}
-                source={{uri: Flag.Flags.DE}}/>
+               /**  source={{uri: Flag.Flags.DE}}*//>
                 <Text>
                     DE
                 </Text>
@@ -26,7 +26,7 @@ function languageButton (){
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('tr')}>
                 <Image style={style.flag}
-                source={{uri: Flag.Flags.TR}}/>
+                /**source={{uri: Flag.Flags.TR}}*//>
                 <Text>
                     TR
                 </Text>
@@ -34,7 +34,7 @@ function languageButton (){
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('en')}>
                 <Image style={style.flag}
-                 source={{uri: Flag.Flags.EN}}/>
+               /**   source={{uri: Flag.Flags.EN}}*//>
                 <Text>
                     EN
                 </Text>

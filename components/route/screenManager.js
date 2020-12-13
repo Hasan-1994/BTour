@@ -11,7 +11,7 @@ import PP from '../source/sightseeings/potsdamerplatz';
 import RT from '../source/sightseeings/reichstag';
 
 import drawer from '../source/drawerMenu'
-var Flag = require('../backend/translations/de/translation.json')
+//var Flag = require('../backend/translations/de/translation.json')
 
 const App = () => {
     return (
