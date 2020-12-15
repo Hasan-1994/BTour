@@ -3,6 +3,12 @@ var { StyleSheet } = React;
 
 
 module.exports = StyleSheet.create({
+    background:{
+        backgroundColor: '#49b8d6',
+    },
+    discriptionText:{
+        backgroundColor: '#ccd6d9'
+    },
     map_Button: {
         backgroundColor: 'grey',
         width: 'auto',

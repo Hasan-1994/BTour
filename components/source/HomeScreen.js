@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import { View, Text, FlatList, TouchableOpacity, ActivityIndicator } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity, ActivityIndicator, Alert, ImageBackground } from 'react-native';
 
 import { navigateByItemId } from '../route/screenChooser';
 import Flag from '../backend/Language/languageButton'
 import style from '../style/style';
+
+
+
 export default class HomeScreen extends Component {
     constructor(props) {
         super(props);
@@ -15,12 +18,12 @@ export default class HomeScreen extends Component {
     }
 
     componentDidMount() {
-        fetch('http://sivrikaya.de/wp-content/plugins/json-content-importer/json/BTour/BTourDE.json')
+        fetch('https://raw.githubusercontent.com/Hasan-1994/Chat2/master/info.json?token=AIL2AXPM6AMSP3R6LZPTTVS74JYUK')
             .then((Response) => Response.json())
             .then((json) => {
-                this.setState({ data: json.sehenswürdigkeiten });
+                this.setState({ data: json.attractions });
             })
-            .catch((error) => console.log(error))
+            .catch((error) => Alert.alert(error))
             .finally(() => {
                 this.setState({ isLoading: false })
             })
@@ -37,15 +40,18 @@ export default class HomeScreen extends Component {
                     </Text>
                     <ActivityIndicator size='large'  color="#141194" />
                                 </View> : <FlatList
+                                style={{padding: 10}}
                         data={data}
                         keyExtractor={({ id }, index) => id}
                         renderItem={({ item }) => (
 
                             <TouchableOpacity
                                 onPress={() => { navigateByItemId(item.id) }}>
-                                <Text>{item.name}</Text>
+                                    <ImageBackground source={{ uri: item.images }} style={{width: '100%', height: 'auto', borderRadius: 6, overflow: 'hidden'}}>
+                                        <Text style={{fontSize: 55, textAlign:'center'}}>{item.title}</Text>
+                                    </ImageBackground>
+                                
                             </TouchableOpacity>
-
 
                         )}
                     />}

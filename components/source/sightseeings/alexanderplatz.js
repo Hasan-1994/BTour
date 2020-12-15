@@ -9,19 +9,20 @@ import { useTranslation } from 'react-i18next';
 import LangChan from '../../backend/Language/languagePicker'
 import LangBtn from '../../backend/Language/languageButton'
 
+var style = require('../../style/style')
 
-import MAP from '../localisation/maps2'
+import MAP from '../localisation/maps'
  function alexanderplatz (props) {
     const { t, i18n } = useTranslation();
         return(
             
-            <View>
+            <View style={style.background}>
                 <LangChan/>
                 <Text>
                     Alexanderplatz
                 </Text>
 
-                <Text>
+                <Text style={style.discriptionText}>
                     {t('Alexanderplatz.discription')}
                 </Text>
                 <Text>
