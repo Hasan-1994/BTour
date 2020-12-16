@@ -4,18 +4,43 @@ var { StyleSheet } = React;
 
 module.exports = StyleSheet.create({
     background:{
-        backgroundColor: '#49b8d6',
+        //backgroundColor: '#49b8d6',
+    },
+    discriptionView:{
+        //backgroundColor: '#ccd6d9',
+        backgroundColor: '#f5fffa',
+        borderColor: '#333333',
+        borderWidth: 2,
+        borderRadius: 10,
+       //alignItems: 'center',
+        //justifyContent: 'center',
     },
     discriptionText:{
-        backgroundColor: '#ccd6d9'
+        //marginHorizontal: 10,
+        //padding: 10,
+        //borderRadius: 3,
+        //borderColor: 'rgba(0,0,0,0.1)',
+        //borderWidth: 1,
+        //backgroundColor: '#fff',
+        justifyContent: 'center',
+        textAlign:'center',
+        //height: 'auto', 
+        fontSize: 18
+        // textAlign:'center',
     },
     map_Button: {
-        backgroundColor: 'grey',
+        //backgroundColor: 'grey',
         width: 'auto',
         height: '40%',
         borderColor: '#333333',
-        borderWidth: 1,
-        borderRadius: 5,
+        borderWidth: 2,
+        borderRadius: 10,
+    },
+    backgroundFlatList:{
+        width: '100%', 
+        height: 'auto', 
+        borderRadius: 6, 
+        overflow: 'hidden' 
     },
     backgroundImage: {
         height: '100%',

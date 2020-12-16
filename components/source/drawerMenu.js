@@ -10,9 +10,14 @@ function drawerMenu () {
             <Text>
                 adsda
             </Text>
-            <TouchableOpacity onPress={()=> Actions.jump('Alexanderplatz')}>
+            <TouchableOpacity onPress={() => Actions.jump('home')}>
                 <Text>
-                    ALex
+                    Home
+                </Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={()=> Actions.jump('about')}>
+                <Text>
+                    About
                 </Text>
             </TouchableOpacity>
             <LangChan/>

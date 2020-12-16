@@ -7,13 +7,13 @@ export const navigateByItemId = (id) => {
    
     switch (id) {
         case 1:
-            Actions.jump('Alexanderplatz');
+            Actions.push('Alexanderplatz')
             break;
         case 2:
             Actions.jump('Brandenburger Tor');
             break;
         case 3:
-            Actions.jump('East Side Galary');
+            Actions.jump('EastSideGalary');
             break;
         case 4:
             Actions.jump('Kürfüstenstraße - Kudam');
