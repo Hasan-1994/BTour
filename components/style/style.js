@@ -3,19 +3,19 @@ var { StyleSheet } = React;
 
 
 module.exports = StyleSheet.create({
-    background:{
+    background: {
         //backgroundColor: '#49b8d6',
     },
-    discriptionView:{
+    discriptionView: {
         //backgroundColor: '#ccd6d9',
         backgroundColor: '#f5fffa',
         borderColor: '#333333',
         borderWidth: 2,
         borderRadius: 10,
-       //alignItems: 'center',
+        //alignItems: 'center',
         //justifyContent: 'center',
     },
-    discriptionText:{
+    discriptionText: {
         //marginHorizontal: 10,
         //padding: 10,
         //borderRadius: 3,
@@ -23,7 +23,7 @@ module.exports = StyleSheet.create({
         //borderWidth: 1,
         //backgroundColor: '#fff',
         justifyContent: 'center',
-        textAlign:'center',
+        textAlign: 'center',
         //height: 'auto', 
         fontSize: 18
         // textAlign:'center',
@@ -36,11 +36,14 @@ module.exports = StyleSheet.create({
         borderWidth: 2,
         borderRadius: 10,
     },
-    backgroundFlatList:{
-        width: '100%', 
-        height: 'auto', 
-        borderRadius: 6, 
-        overflow: 'hidden' 
+    backgroundFlatList: {
+        width: '100%',
+        height: 'auto',
+        borderRadius: 6,
+        overflow: 'hidden',
+        borderColor: 'black',
+        borderWidth: 2,
+        borderRadius: 5,
     },
     backgroundImage: {
         height: '100%',
@@ -48,31 +51,31 @@ module.exports = StyleSheet.create({
         opacity: 0.6,
         position: 'absolute',
     },
-    buttonView:{
-            //flex: 1,
-             flexDirection: 'row',
-            // alignItems: 'center',
-             justifyContent: 'center',
-            // left: 'auto'
-            bottom:0
-            
-    },
-    buttonContainer:{
+    buttonView: {
         //flex: 1,
-         width: '15%',
-         height: '45%',
+        flexDirection: 'row',
+        // alignItems: 'center',
+        justifyContent: 'center',
+        // left: 'auto'
+        bottom: 0
+
+    },
+    buttonContainer: {
+        //flex: 1,
+        width: '15%',
+        height: '45%',
         // top: "100%",
-         alignItems: 'center',
-         justifyContent: 'center',
-         borderColor: 'red',
-         borderWidth: 1,
-         borderRadius: 5,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderColor: 'red',
+        borderWidth: 1,
+        borderRadius: 5,
     },
-    flag:{
-         width: '25%',
-         height: '20%'
+    flag: {
+        width: '25%',
+        height: '20%'
     },
-    Loader:{
+    Loader: {
         borderColor: 'red',
         borderWidth: 1,
         borderRadius: 5,

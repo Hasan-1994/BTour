@@ -57,7 +57,6 @@ export default class HomeScreen extends Component {
 
                         )}
                     />}
-                <Flag />
             </View>
         )
     }

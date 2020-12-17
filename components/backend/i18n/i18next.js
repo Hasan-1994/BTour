@@ -18,7 +18,8 @@ i18n
         useSuspense: false
     },
     backend:{
-        loadPath: 'https://www.sivrikaya.de/wp-content/plugins/json-content-importer/json/BTour/{{lng}}/translation.json',
+        //loadPath: 'https://www.sivrikaya.de/wp-content/plugins/json-content-importer/json/BTour/{{lng}}/translation.json',
+        loadPath: 'https://raw.githubusercontent.com/Hasan-1994/jsontest/master/{{lng}}/translation.json',
         parse: (data) =>{
             return data;
         },

@@ -10,6 +10,7 @@ import KD from '../source/sightseeings/kudam';
 import MI from '../source/sightseeings/museumsinsel';
 import PP from '../source/sightseeings/potsdamerplatz';
 import RT from '../source/sightseeings/reichstag';
+import LC from '../source/drawer/languageChanger';
 
 //Screens for DrawerMenu
 import drawer from '../source/drawerMenu'
@@ -20,7 +21,7 @@ import I18n from '../backend/i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
 const App = () => {
-    
+    const { t, i18n } = useTranslation();
     return (
 
         <Router>
@@ -37,6 +38,9 @@ const App = () => {
                     <Scene key='about'
                         component={about}
                         title="About" />
+                    <Scene key= 'languageChanger'
+                        component={LC}
+                        title="Language Changer"/>
                 </Drawer>
 
                 <Scene key='Alexanderplatz'
@@ -44,7 +48,7 @@ const App = () => {
                     title="Alexanderplatz" />
                 <Scene key='Brandenburger Tor'
                     component={BBT}
-                    title="Brandenburger Tor" />
+                    title={t("BrandenburgerTor.name")} />
                 <Scene key='EastSideGalary'
                     component={ESG}
                     title='East Side Galary' />

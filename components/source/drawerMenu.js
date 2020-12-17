@@ -1,26 +1,29 @@
 import React, { Component } from 'react';
 import {View, Text, FlatList, TouchableOpacity, ActionSheetIOS } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import LangChan from '../backend/Language/languagePicker'
+
+//LanguagePack imports
+import I18n from '../backend/i18n/i18next';
+const initI18n = I18n;
+import { useTranslation } from 'react-i18next';
 
 function drawerMenu () {
-
+    const { t, i18n } = useTranslation();
     return(
         <View>
             <Text>
                 adsda
             </Text>
-            <TouchableOpacity onPress={() => Actions.jump('home')}>
-                <Text>
-                    Home
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={()=> Actions.jump('about')}>
+            <TouchableOpacity onPress={() => Actions.jump('about')}>
                 <Text>
                     About
                 </Text>
             </TouchableOpacity>
-            <LangChan/>
+            <TouchableOpacity onPress={()=> Actions.jump("languageChanger")}>
+                <Text>
+                    {t("ViewText.ChangeLng")}
+                </Text>
+            </TouchableOpacity>
         </View>
     )
 }
