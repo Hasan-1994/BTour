@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Scene, Modal, Drawer } from 'react-native-router-flux';
+import { Router, Scene, Drawer, Actions } from 'react-native-router-flux';
 
 //Screens for Sightseeing
 import HOME from '../source/HomeScreen';
@@ -30,17 +30,21 @@ const App = () => {
                 headerLayoutPreset='center'>
                 <Drawer drawerPosition='left'
                     hideNavBar
+                    key='drawer'
                     contentComponent={drawer}
-                >
-                    <Scene key='home'
+                    type='displace'
+                    drawerWidth={125}>
+
+                        <Scene key='home'
                         component={HOME}
-                        title="BTour" />
+                        title="BTour" 
+                        initial={true}/>
                     <Scene key='about'
                         component={about}
                         title="About" />
-                    <Scene key= 'languageChanger'
+                    <Scene key='languageChanger'
                         component={LC}
-                        title="Language Changer"/>
+                        title="Language Changer" />
                 </Drawer>
 
                 <Scene key='Alexanderplatz'

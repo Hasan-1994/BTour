@@ -48,7 +48,7 @@ export default class HomeScreen extends Component {
                         renderItem={({ item }) => (
 
                             <TouchableOpacity
-                                onPress={() => { navigateByItemId(item.id) }}>
+                                onPress={() => { navigateByItemId(item.id)}}>
                                 <ImageBackground source={{ uri: item.images }} style={style.backgroundFlatList}>
                                     <Text style={{ fontSize: 55, textAlign: 'center' }}>{item.title}</Text>
                                 </ImageBackground>

@@ -33,11 +33,13 @@ function languageChanger() {
                     {t("BUTTONS.TURKISH")}
                 </Text>
             </TouchableOpacity>
-            <TouchableOpacity disabled={true} onPress={() => I18n.changeLanguage('es')} style={{ backgroundColor: "grey", width: 'auto', height: 30, borderColor: 'black', borderWidth: 2, borderRadius: 10, }}>
+            <TouchableOpacity 
+             onPress={() => I18n.changeLanguage('es'), ()=> Alert.alert("Error",t("BUTTONS.ALERT_NOTAVABLIE"))} style={{ backgroundColor: "grey", width: 'auto', height: 30, borderColor: 'black', borderWidth: 2, borderRadius: 10, }}>
                 <Text style={{ fontSize: 20, textAlign: 'center' }}>
                     {t("BUTTONS.SPANISH")}
                 </Text>
             </TouchableOpacity>
+
         </View>
     )
 }
