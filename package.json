@@ -19,12 +19,14 @@
     "react-native": "0.63.4",
     "react-native-dropdown-picker": "^3.7.1",
     "react-native-gesture-handler": "^1.9.0",
+    "react-native-image-view": "^2.1.9",
     "react-native-localize": "^2.0.1",
     "react-native-map-link": "^2.7.19",
     "react-native-read-more-text": "^1.1.2",
     "react-native-reanimated": "^1.13.2",
     "react-native-router-flux": "^4.2.0",
-    "react-native-screens": "^2.15.0"
+    "react-native-screens": "^2.15.0",
+    "react-native-snap-carousel": "^3.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

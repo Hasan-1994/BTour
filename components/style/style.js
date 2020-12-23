@@ -3,8 +3,10 @@ var { StyleSheet } = React;
 
 
 module.exports = StyleSheet.create({
-    background: {
-        //backgroundColor: '#49b8d6',
+    mainContainer: {
+        flex: 1,
+        width: '100%', 
+        height: 'auto'
     },
     discriptionView: {
         //backgroundColor: '#ccd6d9',
@@ -14,6 +16,7 @@ module.exports = StyleSheet.create({
         borderRadius: 10,
         //alignItems: 'center',
         //justifyContent: 'center',
+        //bottom: '65%'
     },
     discriptionText: {
         //marginHorizontal: 10,
@@ -22,10 +25,10 @@ module.exports = StyleSheet.create({
         //borderColor: 'rgba(0,0,0,0.1)',
         //borderWidth: 1,
         //backgroundColor: '#fff',
-        justifyContent: 'center',
+        //justifyContent: 'center',
         textAlign: 'center',
         //height: 'auto', 
-        fontSize: 18
+        fontSize: 20
         // textAlign:'center',
     },
     map_Button: {
@@ -35,6 +38,7 @@ module.exports = StyleSheet.create({
         borderColor: '#333333',
         borderWidth: 2,
         borderRadius: 10,
+        //bottom: '160%'
     },
     backgroundFlatList: {
         width: '100%',
@@ -49,7 +53,7 @@ module.exports = StyleSheet.create({
         height: '100%',
         width: '100%',
         opacity: 0.6,
-        position: 'absolute',
+        //position: 'absolute',
     },
     buttonView: {
         //flex: 1,
@@ -57,12 +61,12 @@ module.exports = StyleSheet.create({
         // alignItems: 'center',
         justifyContent: 'center',
         // left: 'auto'
-        bottom: 0
+        //bottom: '125%'
 
     },
     buttonContainer: {
-        //flex: 1,
-        width: '15%',
+        flex: 1,
+        width: 50,
         height: '45%',
         // top: "100%",
         alignItems: 'center',
@@ -84,5 +88,26 @@ module.exports = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-around",
         padding: '50%'
+    },
+    carouselViewer: {
+        backgroundColor: 'floralwhite',
+        borderRadius: 10,
+        borderColor: 'black',
+        borderWidth: 2,
+        height: 250,
+        width: '135%',
+        padding: 10,
+        marginLeft: 'auto',
+    },
+    carouselViewerImage:{
+        height: '100%',
+        width:'auto'
+    },
+    carouselPlacemant: {
+        flex: 1,
+        flexDirection:'row', 
+        position:'relative',
+        justifyContent: 'center',
+        height: 'auto',
     }
 })

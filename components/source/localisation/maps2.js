@@ -3,31 +3,33 @@ import {
     View,
     Text,
     TouchableOpacity,
-    ImageBackground
-} from 'react-native'
-import { Popup, showLocation } from 'react-native-map-link'
+    ImageBackground,
+    } from 'react-native'
+import { Popup} from 'react-native-map-link'
 
 
 //Style imports
 var style = require("../../style/style");
 
 function maps2 (props){
-    isVisible: false
-    const options = ()=>{
-            //latitude: 10,
-            //longitude: 10,
-            title: props.data
+    const [isVisible, setIsVisible] = useState(false);
+    const options = {
+        latitude: null,
+        longitude: null,
+        title: props.data
+
     }
+
     return (
             <View>
                 <Popup
-                    isVisible={false}
-                    onCancelPressed={() => { isVisible: false }}
-                    onAppPressed={() => this.setState({ isVisible: false })}
-                    onBackButtonPressed={() => this.setState({ isVisible: false })}
+                    isVisible={isVisible}
+                    onCancelPressed={() =>  setIsVisible(false) }
+                    onAppPressed={() =>  setIsVisible(false) }
+                    onBackButtonPressed={() =>  setIsVisible(false) }
                     options={options}
                 />
-                <TouchableOpacity onPress={() => { this.setState({ isVisible: true }) }}
+                <TouchableOpacity onPress={() =>   setIsVisible(true), console.log(props.data)}
                     style={style.map_Button}>
                     <ImageBackground source={{ uri: 'https://i.ibb.co/09FNN8M/amp.jpg' }}
                         style={style.backgroundImage}>

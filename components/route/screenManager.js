@@ -27,15 +27,16 @@ const App = () => {
         <Router>
 
             <Scene key='root'
-                headerLayoutPreset='center'>
-                <Drawer drawerPosition='left'
+                headerLayoutPreset='center'
+                >
+                <Drawer drawerPosition='center'
                     hideNavBar
                     key='drawer'
                     contentComponent={drawer}
                     type='displace'
                     drawerWidth={125}>
 
-                        <Scene key='home'
+                    <Scene key='home'
                         component={HOME}
                         title="BTour" 
                         initial={true}/>
@@ -45,6 +46,7 @@ const App = () => {
                     <Scene key='languageChanger'
                         component={LC}
                         title="Language Changer" />
+                        
                 </Drawer>
 
                 <Scene key='Alexanderplatz'

@@ -15,24 +15,25 @@ import ReadMore from 'react-native-read-more-text';
 //Navigate Imports
 import MAP from '../localisation/maps'
 
-function brandenburgerTor () {
+function brandenburgerTor() {
     const { t, i18n } = useTranslation();
-    return(
-        <View style={style.background}>
-        <View style={style.discriptionView}>
-            <ReadMore
-                numberOfLines={3}>
-                <Text style={style.discriptionText}>
-                    {t('BrandenburgerTor.discription')}
+    return (
+            <View style={style.background}>
+                <View style={style.discriptionView}>
+                    <ReadMore
+                        numberOfLines={3}>
+                        <Text style={style.discriptionText}>
+                            {t('BrandenburgerTor.discription')}
+                        </Text>
+                    </ReadMore>
+                </View>
+                <Text>
+                    {t("ViewText.Navigate")} {t('BrandenburgerTor.name')}
                 </Text>
-            </ReadMore>
-        </View>
-        <Text>
-            {t("ViewText.Navigate")} {t('BrandenburgerTor.name')}
-        </Text>
-        <MAP />
-        <LangBtn />
-    </View>
+                <MAP />
+                <LangBtn />
+            </View>
+
     )
 }
 export default brandenburgerTor;
