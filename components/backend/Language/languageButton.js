@@ -23,34 +23,26 @@ function languageButton (){
                 onPress={() => I18n.changeLanguage('de')}>
                 <Image style={style.flag}
                  source={{uri: 'https://i.ibb.co/yB2ZgW9/deutschland-1.png'}}/>
-                <Text>
-                    DE
-                </Text>
             </TouchableOpacity>
+
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('tr')}>
                 <Image style={style.flag}
                 source={{uri: 'https://i.ibb.co/QpG5Drx/iconfinder-263-Ensign-Flag-Nation-turkey-2634440.png'}}/>
-                <Text>
-                    TR
-                </Text>
             </TouchableOpacity>
+
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('en')}>
                 <Image style={style.flag}
                   source={{uri: 'https://i.ibb.co/g6c8xqX/iconfinder-United-Kingdom-2361499.png'}}/>
-                <Text>
-                    EN
-                </Text>
             </TouchableOpacity>
+
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('es'), ()=> Alert.alert("Error",t("BUTTONS.ALERT_NOTAVABLIE"))}>
                 <Image style={style.flag}
                   source={{uri: 'https://i.ibb.co/g6c8xqX/iconfinder-United-Kingdom-2361499.png'}}/>
-                <Text>
-                    ES
-                </Text>
             </TouchableOpacity>
+            
         </View>
     )
 

@@ -4,6 +4,8 @@ import {
     Text,
     TouchableOpacity,
     ImageBackground,
+    Dimensions,
+    Image
     } from 'react-native'
 import { Popup} from 'react-native-map-link'
 
@@ -12,6 +14,8 @@ import { Popup} from 'react-native-map-link'
 var style = require("../../style/style");
 
 function maps2 (props){
+    const windowWidth = Dimensions.get('window').width;
+    const windowHeight = Dimensions.get('window').height;
     const [isVisible, setIsVisible] = useState(false);
     const options = {
         latitude: null,
@@ -29,11 +33,11 @@ function maps2 (props){
                     onBackButtonPressed={() =>  setIsVisible(false) }
                     options={options}
                 />
-                <TouchableOpacity onPress={() =>   setIsVisible(true), console.log(props.data)}
-                    style={style.map_Button}>
-                    <ImageBackground source={{ uri: 'https://i.ibb.co/09FNN8M/amp.jpg' }}
-                        style={style.backgroundImage}>
-                    </ImageBackground>
+                <TouchableOpacity onPress={() =>alert(props.data)}
+                   style={style.map_Button} >
+                    <Image source={{ uri: 'https://i.ibb.co/09FNN8M/amp.jpg' }} style={style.backgroundImage}>
+                    </Image>
+
                 </TouchableOpacity>
             </View>
         )

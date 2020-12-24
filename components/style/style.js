@@ -1,12 +1,15 @@
 var React = require('react-native');
-var { StyleSheet } = React;
+var { StyleSheet, Dimensions } = React;
 
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
 
 module.exports = StyleSheet.create({
     mainContainer: {
         flex: 1,
-        width: '100%', 
-        height: 'auto'
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: 'blue'
     },
     discriptionView: {
         //backgroundColor: '#ccd6d9',
@@ -14,9 +17,23 @@ module.exports = StyleSheet.create({
         borderColor: '#333333',
         borderWidth: 2,
         borderRadius: 10,
+        //width: '95%',
         //alignItems: 'center',
         //justifyContent: 'center',
-        //bottom: '65%'
+        padding: 10,
+        flex: 1,
+        flexDirection: 'row',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 6,
+        },
+        shadowOpacity: 0.39,
+        shadowRadius: 8.30,
+
+        elevation: 13,
+
+
     },
     discriptionText: {
         //marginHorizontal: 10,
@@ -25,20 +42,32 @@ module.exports = StyleSheet.create({
         //borderColor: 'rgba(0,0,0,0.1)',
         //borderWidth: 1,
         //backgroundColor: '#fff',
-        //justifyContent: 'center',
+        justifyContent: 'center',
         textAlign: 'center',
         //height: 'auto', 
-        fontSize: 20
+        fontSize: 20,
         // textAlign:'center',
+
     },
     map_Button: {
         //backgroundColor: 'grey',
-        width: 'auto',
-        height: '40%',
-        borderColor: '#333333',
-        borderWidth: 2,
-        borderRadius: 10,
-        //bottom: '160%'
+        //width: '50%',
+        // borderColor: '#333333',
+        // borderWidth: 4,
+        // borderRadius: 35,
+        // bottom: 10,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 6,
+        },
+        shadowOpacity: 0.39,
+        shadowRadius: 8.30,
+
+        elevation: 13,
+
+
+        elevation: 13,
     },
     backgroundFlatList: {
         width: '100%',
@@ -50,34 +79,48 @@ module.exports = StyleSheet.create({
         borderRadius: 5,
     },
     backgroundImage: {
-        height: '100%',
-        width: '100%',
-        opacity: 0.6,
+        //height: '125%',
+        //width: '150%',
+        //opacity: 0.6,
         //position: 'absolute',
+        borderColor: '#333333',
+        borderWidth: 3,
+        borderRadius: 15,
+        width: windowWidth,
+        height: windowHeight / 7,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 12,
+        },
+        shadowOpacity: 0.58,
+        shadowRadius: 16.00,
+
+        elevation: 24,
     },
     buttonView: {
-        //flex: 1,
+        flex: 1,
         flexDirection: 'row',
-        // alignItems: 'center',
-        justifyContent: 'center',
+        //alignItems: 'center',
+        //justifyContent: 'center',
         // left: 'auto'
-        //bottom: '125%'
-
+        // top:-50,
+        //bottom: '50%'
     },
     buttonContainer: {
         flex: 1,
-        width: 50,
-        height: '45%',
+        width: '100%',
+        height: 65,
         // top: "100%",
         alignItems: 'center',
         justifyContent: 'center',
-        borderColor: 'red',
-        borderWidth: 1,
-        borderRadius: 5,
+        //borderColor: 'red',
+        borderWidth: 2,
+        borderRadius: 10,
     },
     flag: {
-        width: '25%',
-        height: '20%'
+        width: '50%',
+        height: '50%'
     },
     Loader: {
         borderColor: 'red',
@@ -97,17 +140,40 @@ module.exports = StyleSheet.create({
         height: 250,
         width: '135%',
         padding: 10,
-        marginLeft: 'auto',
+        // marginLeft: 'auto',
+        justifyContent: 'center'
+
     },
-    carouselViewerImage:{
+    carouselViewerImage: {
         height: '100%',
-        width:'auto'
+        width: 'auto',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 6,
+        },
+        shadowOpacity: 0.39,
+        shadowRadius: 8.30,
+
+        elevation: 13,
     },
     carouselPlacemant: {
+        // flex: 0.36,
         flex: 1,
-        flexDirection:'row', 
-        position:'relative',
-        justifyContent: 'center',
-        height: 'auto',
+        flexDirection: 'row',
+        justifyContent: "center",
+        // alignItems: "center"
+        //position:'relative',
+        //justifyContent: 'center',
+        //height: 'auto',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 6,
+        },
+        shadowOpacity: 0.39,
+        shadowRadius: 8.30,
+
+        elevation: 13,
     }
 })

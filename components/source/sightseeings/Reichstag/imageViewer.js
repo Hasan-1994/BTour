@@ -5,7 +5,7 @@ import Carousel from 'react-native-snap-carousel';
 
 
 //Style Imports
-var style = require('../../style/style')
+var style = require('../../../style/style')
 
 function imageViewer() {
   const [isLoading, setLoading] = useState(true);
@@ -15,7 +15,7 @@ function imageViewer() {
   useEffect(() => {
     fetch('https://raw.githubusercontent.com/Hasan-1994/jsontest/master/info.json')
       .then((response) => response.json())
-      .then((json) => setData(json.attractions))
+      .then((json) => setData(json.reichstag))
       .catch((error) => console.error(error))
       .finally(() => setLoading(false));
   }, []);
@@ -23,7 +23,7 @@ function imageViewer() {
   const _renderItem = ({ item, index }) => {
     return (
           <View style={style.carouselViewer}>
-            <Image source={{ uri: item.images }} style={style.carouselViewerImage} />
+            <Image source={{ uri: item.image }} style={style.carouselViewerImage} />
           </View>
     );
   }
