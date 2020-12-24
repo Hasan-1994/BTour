@@ -35,7 +35,7 @@ function imageViewer() {
         loop={true}
         //ref={ref => carousel = ref}
         data={data}
-        sliderWidth={5}
+        sliderWidth={50}
         itemWidth={300}
         renderItem={_renderItem}
         onSnapToItem={index => ({ setActiveIndex: index })} />

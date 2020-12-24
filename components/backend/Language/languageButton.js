@@ -40,7 +40,7 @@ function languageButton (){
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('es'), ()=> Alert.alert("Error",t("BUTTONS.ALERT_NOTAVABLIE"))}>
                 <Image style={style.flag}
-                  source={{uri: 'https://i.ibb.co/g6c8xqX/iconfinder-United-Kingdom-2361499.png'}}/>
+                  source={{uri: 'https://i.ibb.co/vH94n8r/ES-Spain-Flag-icon.png'}}/>
             </TouchableOpacity>
             
         </View>

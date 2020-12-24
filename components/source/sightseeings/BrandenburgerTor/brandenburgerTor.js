@@ -1,39 +1,37 @@
-//General imports
+//React imports
 import React, { } from 'react';
-import { View, Text } from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 
 //LanguagePack imports
 import I18n from '../../../backend/i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
+
+//General imports
+import DISCRIOTION from './discripBBT'
 import LangBtn from '../../../backend/Language/languageButton'
+import IV from './imageViewer';
+import MAP from '../../localisation/maps2'
 
 //Style Imports
 var style = require('../../../style/style')
-import ReadMore from 'react-native-read-more-text';
-
-//Navigate Imports
-import MAP from '../../localisation/maps'
 
 function brandenburgerTor() {
     const { t, i18n } = useTranslation();
     return (
-            <View style={style.background}>
-                <View style={style.discriptionView}>
-                    <ReadMore
-                        numberOfLines={3}>
-                        <Text style={style.discriptionText}>
-                            {t('BrandenburgerTor.discription')}
-                        </Text>
-                    </ReadMore>
-                </View>
-                <Text>
-                    {t("ViewText.Navigate")} {t('BrandenburgerTor.name')}
-                </Text>
-                <MAP />
-                <LangBtn />
+        <ScrollView style={{backgroundColor: 'blue'}}>
+        <View style={style.mainContainer}>
+          <IV/>
+          <DISCRIOTION/>
+            <View style={style.discriptionView}>
+              <Text  style={style.discriptionText}>
+                  {t("ViewText.Navigate")}{t('BrandenburgerTor.name')}
+              </Text>
             </View>
-
+          <MAP data='Brandenburger Tor'/>
+          <LangBtn/>   
+      </View>
+      </ScrollView>
     )
 }
 export default brandenburgerTor;

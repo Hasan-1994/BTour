@@ -5,7 +5,8 @@ import {
     TouchableOpacity,
     ImageBackground,
     Dimensions,
-    Image
+    Image,
+    Button
     } from 'react-native'
 import { Popup} from 'react-native-map-link'
 
@@ -33,12 +34,15 @@ function maps2 (props){
                     onBackButtonPressed={() =>  setIsVisible(false) }
                     options={options}
                 />
-                <TouchableOpacity onPress={() =>alert(props.data)}
+                <TouchableOpacity onPress={() => setIsVisible(true)} style={style.map_Button}>
+                <Image source={{ uri: 'https://i.ibb.co/09FNN8M/amp.jpg' }} style={style.backgroundImage}>
+                    </Image>
+                </TouchableOpacity>
+                {/* <TouchableOpacity onPress={() =>alert(props.data)}
                    style={style.map_Button} >
                     <Image source={{ uri: 'https://i.ibb.co/09FNN8M/amp.jpg' }} style={style.backgroundImage}>
                     </Image>
-
-                </TouchableOpacity>
+                </TouchableOpacity> */}
             </View>
         )
 }

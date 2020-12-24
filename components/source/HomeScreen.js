@@ -19,7 +19,7 @@ export default class HomeScreen extends Component {
     }
 
     componentDidMount() {
-        fetch('https://raw.githubusercontent.com/Hasan-1994/jsontest/master/info.json')
+        fetch('https://raw.githubusercontent.com/Hasan-1994/jsontest/master/info2.json')
             .then((Response) => Response.json())
             .then((json) => {
                 this.setState({ data: json.attractions });
@@ -34,7 +34,7 @@ export default class HomeScreen extends Component {
         const { data, isLoading, } = this.state;
         return (
 
-            <View>
+            <View style={{backgroundColor: 'blue'}}>
 
                 { isLoading ? <View style={style.Loader}>
                     <Text>
@@ -43,6 +43,7 @@ export default class HomeScreen extends Component {
                     <ActivityIndicator size='large' color="#141194" />
                 </View> : <FlatList
                         style={{ padding: 10 }}
+                        contentContainerStyle={{justifyContent: 'space-between'}}
                         data={data}
                         keyExtractor={({ id }, index) => id}
                         renderItem={({ item }) => (
@@ -50,14 +51,15 @@ export default class HomeScreen extends Component {
                             <TouchableOpacity
                                 onPress={() => { navigateByItemId(item.id)}}>
                                     
-                                 <ImageBackground source={{ uri: item.images }} style={style.backgroundFlatList}>
-                                    <Text style={{ fontSize: 55, textAlign: 'center' }}>{item.title}</Text>
+                                 <ImageBackground source={{ uri: item.titleBild }} style={style.backgroundFlatList}>
+                                    <Text style={{ fontSize: 45, textAlign: 'center', marginTop:35}}>{item.title}</Text>
                                 </ImageBackground> 
 
                             </TouchableOpacity>
-
                         )}
+
                     />}
+
             </View>
         )
     }

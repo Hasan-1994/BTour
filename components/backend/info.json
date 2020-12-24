@@ -1,0 +1,171 @@
+{
+  "title": "BTour",
+  "description": "Your app fetched this from a remote endpoint!",
+  "attractions": [
+    {
+      "id": 1,
+      "title": "Alexanderplatz",
+      "titleBild": "https://i.ibb.co/w7DXFRz/Alexanderplatz-in-Berlin-Panorama.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Brandenburger Tor"
+    },
+    {
+      "id": 3,
+      "title": "East Side Galary"
+    },
+    {
+      "id": 4,
+      "title": "Kurfüstendamm - Kudamm"
+    },
+    {
+      "id": 5,
+      "title": "Museumsinsel"
+    },
+    {
+      "id": 6,
+      "title": "Potsdamer Platz"
+    },
+    {
+      "id": 7,
+      "title": "Reichstag"
+    }
+  ],
+  "alexanderplatz": [
+    {
+      "image": "https://i.ibb.co/w7DXFRz/Alexanderplatz-in-Berlin-Panorama.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/PxfpR9y/berlin-alexanderplatz.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/MgtWWct/berlin-alexanderplatz-fernsehturm-wallpaper-preview.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/4M0fktx/Die-Urania-Weltzeituhr-ist-eine-Uhrenanlage-in-Baueinheit-mit-einer-symbolischen-Weltdarstellung-auf.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/bWhHG4f/panorama-ansicht-von-berlin-mitte.jpg"
+    }
+  ],
+  "brandenburgerTor": [
+    {
+      "image": "https://i.ibb.co/m9DfRLG/Brandenburg-Gate-Berlin-Germany-panorama.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/LS586rT/Getty-Images-155146737-Mlenny.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/ySkZqCD/size-708x398.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/Smg7rGr/brandenburger-Tor-rosa-Himmel-dpa.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/CvJsGXV/brandenburg-gate-1500x1000.jpg"
+    }
+  ],
+  "eastSideGalary": [
+    {
+      "image": "https://i.ibb.co/sPc7zWd/deutschland-berlin-der-bruderkuss-zwischen-leonid-breschnew-und-erich-honecker-gehocc88rt-zu-den-ber.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/bz928N6/berlino-east-side-gallery-01-presentazione-jpg-1200-630-cover-85.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/pJ1C8qN/deutschland-berlin-die-east-side-gallery-auf-dem-lacc88ngsten-ucc88briggebliebenen-stucc88ck-der-ber.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/hRpG0TV/east-side-gallery-berlin-1500x850.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/nzjjBZ8/east-side-gallery.jpg"
+    }
+  ],
+  "kudamm": [
+    {
+      "image": "https://i.ibb.co/QYnLkhr/1024px-Brunnen-am-Europa-Center-Berlin3.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/bQH1F0g/kudammberlin-620.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/C9Vw1Gv/7789993053018d73cd33efce18e3cab8.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/crL4gs8/gedachtnis-002big.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/TkLD9fM/3-format43.jpg"
+    }
+  ],
+  "museumsinsel": [
+    {
+      "image": "https://i.ibb.co/NVhCLV3/15791463-401.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/T45gVpm/start-tsr-jsg-01.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/LYZ7zLp/2987443-1-articlefancybox-Noch-ist-die-Alte-Nationalgalerie-auf-der-Museumsinsel-in-Berlin-geschloss.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/svXHnD1/csm-BM-202004-Aussenansicht-Tag-Dv-B-2-1e523ea679.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/myk5cdd/urn-newsml-dpa-com.jpg"
+    }
+  ],
+  "potsdamerPlatz": [
+    {
+      "image": "https://i.ibb.co/W5WstZh/Potsdamer-Platz-2.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/Q8c9s2n/Potsdamer-Platz.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/qy9tDcc/1-format43.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/6bkmFRL/berlin-potsdamer-platz.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/SP9CCLN/MG-6442-A-c.jpg"
+    }
+  ],
+  "reichstag": [
+    {
+      "image": "https://i.ibb.co/1M700Vy/1200px-Reichstag-building-Berlin-view-from-west-before-sunset.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/3MKXZNB/Reichstagsgebxude-27401848-original-large-4-3-800-210-0-3922-2779.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/QbBZJjC/urn-newsml-dpa-com-20090101-190418-99-873552-large-4-3.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/Lvz9m1d/reichstag-berlin-1500x1000.jpg"
+    },
+    {
+      "image": "https://i.ibb.co/GC5KcQQ/kuppel-reichstag.jpg"
+    }
+  ],
+  "icons": [
+    {
+      "DE": "https://i.ibb.co/yB2ZgW9/deutschland-1.png"
+    },
+    {
+      "TR": "https://i.ibb.co/QpG5Drx/iconfinder-263-Ensign-Flag-Nation-turkey-2634440.png"
+    },
+    {
+      "EN": "https://i.ibb.co/g6c8xqX/iconfinder-United-Kingdom-2361499.png"
+    },
+    {
+      "ES": "https://i.ibb.co/vH94n8r/ES-Spain-Flag-icon.png"
+    },
+    {
+      "HAM_ICON": "https://i.ibb.co/fvr8J92/Unbenannt-1.png"
+    }
+  ]
+}

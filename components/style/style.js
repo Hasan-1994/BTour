@@ -9,7 +9,8 @@ module.exports = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: 'blue'
+        backgroundColor: 'blue',
+        //height:windowHeight
     },
     discriptionView: {
         //backgroundColor: '#ccd6d9',
@@ -71,12 +72,21 @@ module.exports = StyleSheet.create({
     },
     backgroundFlatList: {
         width: '100%',
-        height: 'auto',
-        borderRadius: 6,
-        overflow: 'hidden',
+        height: 150,
+        borderRadius: 10,
+        borderWidth: 4,
+        //overflow: 'hidden',
         borderColor: 'black',
-        borderWidth: 2,
-        borderRadius: 5,
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 10,
+            height: 12,
+        },
+        shadowOpacity: 0.58,
+        shadowRadius: 16.00,
+
+        elevation: 24,
+        
     },
     backgroundImage: {
         //height: '125%',
@@ -101,11 +111,7 @@ module.exports = StyleSheet.create({
     buttonView: {
         flex: 1,
         flexDirection: 'row',
-        //alignItems: 'center',
-        //justifyContent: 'center',
-        // left: 'auto'
-        // top:-50,
-        //bottom: '50%'
+
     },
     buttonContainer: {
         flex: 1,
@@ -166,6 +172,7 @@ module.exports = StyleSheet.create({
         //position:'relative',
         //justifyContent: 'center',
         //height: 'auto',
+        padding: 4,
         shadowColor: "#000",
         shadowOffset: {
             width: 0,

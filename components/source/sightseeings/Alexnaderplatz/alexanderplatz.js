@@ -1,35 +1,37 @@
-//General imports
+//React imports
 import React, { } from 'react';
-import { View, Text, ScrollView, Dimensions,TouchableOpacity} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 
 //LanguagePack imports
 import I18n from '../../../backend/i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
-import LangBtn from '../../../backend/Language/languageButton'
 
-import TS from './discripAlex'
+//General imports
+import DISCRIOTION from './discripAlex'
+import LangBtn from '../../../backend/Language/languageButton'
+import IV from './imageViewer';
+import MAP from '../../localisation/maps2'
 
 //Style Imports
 var style = require('../../../style/style')
-import ReadMore from 'react-native-read-more-text';
-import IV from './imageViewer';
 
 
-//Navigate Imports
-import MAP from '../../localisation/maps2'
 
 
 
 function alexanderplatz(props) {
   const { t, i18n } = useTranslation();
-  const windowWidth = Dimensions.get('window').width;
-  const windowHeight = Dimensions.get('window').height;
   return (
-    <ScrollView>
+    <ScrollView style={{backgroundColor: 'blue'}}>
       <View style={style.mainContainer}>
         <IV/>
-        <TS/>
+        <DISCRIOTION/>
+          <View style={style.discriptionView}>
+            <Text  style={style.discriptionText}>
+                {t("ViewText.Navigate")}{t('Alexanderplatz.name')}
+            </Text>
+          </View>
         <MAP data='Alexanderplatz'/>
         <LangBtn/>   
     </View>
@@ -48,9 +50,7 @@ function alexanderplatz(props) {
   //                 </Text>
   //         </View>
   //         <IV/>
-  //         <Text>
-  //             {t("ViewText.Navigate")} {t('Alexanderplatz.name')}
-  //         </Text>
+
   //         <LangBtn />
   //         <MAP data={'Alexanderplatz'}/>
   //     </View>
