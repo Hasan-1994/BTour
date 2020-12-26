@@ -52,7 +52,7 @@ export default class HomeScreen extends Component {
                                 onPress={() => { navigateByItemId(item.id)}}>
                                     
                                  <ImageBackground source={{ uri: item.titleBild }} style={style.backgroundFlatList}>
-                                    <Text style={{ fontSize: 45, textAlign: 'center', marginTop:35}}>{item.title}</Text>
+                                    <Text style={{ fontSize: 45, textAlign: 'center', marginTop:35, fontWeight:'bold'}}>{item.title}</Text>
                                 </ImageBackground> 
 
                             </TouchableOpacity>

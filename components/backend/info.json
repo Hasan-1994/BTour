@@ -9,27 +9,33 @@
     },
     {
       "id": 2,
-      "title": "Brandenburger Tor"
+      "title": "Brandenburger Tor",
+      "titleBild": "https://i.ibb.co/m9DfRLG/Brandenburg-Gate-Berlin-Germany-panorama.jpg"
     },
     {
       "id": 3,
-      "title": "East Side Galary"
+      "title": "East Side Galary",
+      "titleBild": "https://i.ibb.co/sPc7zWd/deutschland-berlin-der-bruderkuss-zwischen-leonid-breschnew-und-erich-honecker-gehocc88rt-zu-den-ber.jpg"
     },
     {
       "id": 4,
-      "title": "Kurfüstendamm - Kudamm"
+      "title": "Kurfüstendamm - Kudamm",
+      "titleBild": "https://i.ibb.co/QYnLkhr/1024px-Brunnen-am-Europa-Center-Berlin3.jpg"
     },
     {
       "id": 5,
-      "title": "Museumsinsel"
+      "title": "Museumsinsel",
+      "titleBild": "https://i.ibb.co/NVhCLV3/15791463-401.jpg"
     },
     {
       "id": 6,
-      "title": "Potsdamer Platz"
+      "title": "Potsdamer Platz",
+      "titleBild": "https://i.ibb.co/W5WstZh/Potsdamer-Platz-2.jpg"
     },
     {
       "id": 7,
-      "title": "Reichstag"
+      "title": "Reichstag",
+      "titleBild": "https://i.ibb.co/1M700Vy/1200px-Reichstag-building-Berlin-view-from-west-before-sunset.jpg"
     }
   ],
   "alexanderplatz": [

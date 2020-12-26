@@ -7,27 +7,27 @@ import I18n from '../backend/i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
 
+//Style import
 var style = require('../style/style')
-function drawerMenu () {
+
+function infoPage () {
     const { t, i18n } = useTranslation();
     return(
-        <View>
-            <Text>
-                adsda
-            </Text>
-            <TouchableOpacity onPress={() => Actions.jump('about')}>
-                <Text>
-                    About
+        <View style={{backgroundColor:'#00aeff', flex:1}}> 
+            <TouchableOpacity style={style.infoPageButton}
+            onPress={() => Actions.push('about')}>
+                <Text style={style.infoPageText}>
+                {t("ViewText.About")}
                 </Text>
-                <Image style={style.flag}
-                 source={{uri: 'https://i.ibb.co/yB2ZgW9/deutschland-1.png'}}/>
             </TouchableOpacity>
-            <TouchableOpacity onPress={()=> Actions.jump("languageChanger")}>
-                <Text>
+
+            <TouchableOpacity style={style.infoPageButton}
+            onPress={()=> Actions.push("langChan")}>
+                <Text style={style.infoPageText}>
                     {t("ViewText.ChangeLng")}
                 </Text>
             </TouchableOpacity>
         </View>
     )
 }
-export default drawerMenu;
+export default infoPage;

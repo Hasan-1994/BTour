@@ -1,7 +1,5 @@
-import React from 'react'
 import {Alert} from 'react-native'
 import { Actions } from 'react-native-router-flux';
-
 
 export const navigateByItemId = (id) => {
    
@@ -31,5 +29,4 @@ export const navigateByItemId = (id) => {
              Alert.alert('Achtung', 'Die ausgewählte Seite wurde nicht gefunden')
             console.log('Error')
     }
-
 };

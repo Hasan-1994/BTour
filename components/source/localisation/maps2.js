@@ -24,7 +24,6 @@ function maps2 (props){
         title: props.data
 
     }
-
     return (
             <View>
                 <Popup
@@ -38,11 +37,6 @@ function maps2 (props){
                 <Image source={{ uri: 'https://i.ibb.co/09FNN8M/amp.jpg' }} style={style.backgroundImage}>
                     </Image>
                 </TouchableOpacity>
-                {/* <TouchableOpacity onPress={() =>alert(props.data)}
-                   style={style.map_Button} >
-                    <Image source={{ uri: 'https://i.ibb.co/09FNN8M/amp.jpg' }} style={style.backgroundImage}>
-                    </Image>
-                </TouchableOpacity> */}
             </View>
         )
 }

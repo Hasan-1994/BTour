@@ -9,7 +9,7 @@ module.exports = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: 'blue',
+        backgroundColor: '#00aeff',
         //height:windowHeight
     },
     discriptionView: {
@@ -33,8 +33,6 @@ module.exports = StyleSheet.create({
         shadowRadius: 8.30,
 
         elevation: 13,
-
-
     },
     discriptionText: {
         //marginHorizontal: 10,
@@ -64,10 +62,6 @@ module.exports = StyleSheet.create({
         },
         shadowOpacity: 0.39,
         shadowRadius: 8.30,
-
-        elevation: 13,
-
-
         elevation: 13,
     },
     backgroundFlatList: {
@@ -105,7 +99,6 @@ module.exports = StyleSheet.create({
         },
         shadowOpacity: 0.58,
         shadowRadius: 16.00,
-
         elevation: 24,
     },
     buttonView: {
@@ -182,5 +175,21 @@ module.exports = StyleSheet.create({
         shadowRadius: 8.30,
 
         elevation: 13,
+    },
+
+    infoPageButton:{
+        width: windowWidth,
+        height:'auto', 
+        shadowColor: "#000",
+        shadowOpacity:5,
+        shadowRadius: 10,
+        elevation: 15,
+        backgroundColor: '#d6d6d6',
+        padding:10,
+        marginTop:50
+    },
+    infoPageText:{
+        fontSize:35,
+        textAlign:'center'
     }
 })

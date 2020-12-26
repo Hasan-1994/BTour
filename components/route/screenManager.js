@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Scene, Drawer, Actions } from 'react-native-router-flux';
+import { Router, Scene, Actions } from 'react-native-router-flux';
 
 //Screens for Sightseeing
 import HOME from '../source/HomeScreen';
@@ -10,16 +10,17 @@ import KD from '../source/sightseeings/Kürfüstendamm - Kudamm/kudam';
 import MI from '../source/sightseeings/Museumsinsel/museumsinsel';
 import PP from '../source/sightseeings/Potsdamer Platz/potsdamerplatz';
 import RT from '../source/sightseeings/Reichstag/reichstag';
-import LC from '../source/drawer/languageChanger';
 
-//Screens for DrawerMenu
-import drawer from '../source/drawerMenu'
-import about from '../source/drawer/about';
+// infoPage
+import infoPage from '../source/infoPage'
+import about from '../source/infoPage/about'
+import languageChanger from '../source/infoPage/languageChanger'
 
 //LanguagePack imports
 import I18n from '../backend/i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
+
 const App = () => {
     const { t, i18n } = useTranslation();
     return (
@@ -28,26 +29,25 @@ const App = () => {
 
             <Scene key='root'
                 headerLayoutPreset='center'
-                >
-                <Drawer drawerPosition='center'
-                    hideNavBar
-                    key='drawer'
-                    contentComponent={drawer}
-                    type='displace'
-                    drawerWidth={125}>
+                navigationBarStyle={{ backgroundColor: '#f5f5f5' }}>
 
-                    <Scene key='home'
-                        component={HOME}
-                        title="BTour" 
-                        initial={true}/>
-                    <Scene key='about'
-                        component={about}
-                        title="About" />
-                    <Scene key='languageChanger'
-                        component={LC}
-                        title="Language Changer" />
-                        
-                </Drawer>
+                <Scene key='home'
+                    component={HOME}
+                    title="BTour"
+                    initial={true}
+                    onRight={() => Actions.push('infoPage')}
+                    rightButtonImage={{uri: 'https://i.ibb.co/pP7dGsF/die-info.png'}}
+                    rightButtonIconStyle= {{ width: 25, height:25}} />
+
+                <Scene key='infoPage'
+                    component={infoPage}
+                    title={t("ViewText.InfoPage")} />
+                <Scene key= 'about'
+                    component={about}
+                    title={t("ViewText.About")} />
+                <Scene key='langChan'
+                    component={languageChanger}
+                    title={t("ViewText.ChangeLng")} />
 
                 <Scene key='Alexanderplatz'
                     component={AP}

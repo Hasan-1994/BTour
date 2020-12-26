@@ -37,7 +37,7 @@
     "PotsdamerPlatz": {
         "id": 6,
         "name": "Potsdamer Platz",
-        "discription": "It all began with the 'Platz vor dem Potsdamer Tor', a five-armed street intersection in front of the Potsdamer Tor - one of Berlin's 14 city gates. In 1838, the Potsdam long-distance railway station was opened here. Within a few decades, the square developed into a metropolitan goods transfer point and even one of the busiest squares in Europe. During the Second World War, Potsdamer Platz was almost completely destroyed. Only the Weinhaus Huth and the ruins of the Hotel Esplanade still stood on the previously lively square in 1945. After the end of the war, Potsdamer Platz initially became the "three-country corner" between the Soviet, British and American sectors and was considered a thriving black market. From 1961, the year the Wall was built, until 1989 Potsdamer Platz, with Berlin's widest death strip, was a large inner-city wasteland. It was only with the fall of the Berlin Wall on 9 November 1989 that the area suddenly became the centre of interest again. Virtually overnight, a completely new situation arose on the square that had lain fallow for decades. Every day, Potsdamer Platz attracts 110,000 visitors from Berlin, Germany and abroad: they enjoy the multifaceted offer with comfortable offices, extensive green spaces, first-class entertainment as well as diverse gastronomy and shopping.",
+        "discription": "It all began with the 'Platz vor dem Potsdamer Tor', a five-armed street intersection in front of the Potsdamer Tor - one of Berlin's 14 city gates. In 1838, the Potsdam long-distance railway station was opened here. Within a few decades, the square developed into a metropolitan goods transfer point and even one of the busiest squares in Europe. During the Second World War, Potsdamer Platz was almost completely destroyed. Only the Weinhaus Huth and the ruins of the Hotel Esplanade still stood on the previously lively square in 1945. After the end of the war, Potsdamer Platz initially became the 'three-country corner' between the Soviet, British and American sectors and was considered a thriving black market. From 1961, the year the Wall was built, until 1989 Potsdamer Platz, with Berlin's widest death strip, was a large inner-city wasteland. It was only with the fall of the Berlin Wall on 9 November 1989 that the area suddenly became the centre of interest again. Virtually overnight, a completely new situation arose on the square that had lain fallow for decades. Every day, Potsdamer Platz attracts 110,000 visitors from Berlin, Germany and abroad: they enjoy the multifaceted offer with comfortable offices, extensive green spaces, first-class entertainment as well as diverse gastronomy and shopping.",
         "latitude": 52.5096488,
         "longitude": 13.3737554
     },
@@ -64,6 +64,8 @@
         "Navigate": "Navigate to  ",
         "ChangeLng": "Language",
         "ChooseLng": "Please select a language!",
+        "InfoPage": "Info!",
+        "About": "About this App",
         "AboutApp": "This application was developed as part of a thesis. It is not intended for commercial purposes!"
     }
 }

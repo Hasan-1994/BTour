@@ -3,7 +3,6 @@ import { initReactI18next } from 'react-i18next';
 import { getLocales } from 'react-native-localize';
 import i18nHttpLoader from 'i18next-http-backend';
 import Axios from 'axios';
-import { Alert } from 'react-native';
 
 i18n
 .use(initReactI18next)
@@ -19,8 +18,8 @@ i18n
         useSuspense: false
     },
     backend:{
-        loadPath: 'https://www.sivrikaya.de/wp-content/plugins/json-content-importer/json/BTour/{{lng}}/translation.json',
-        //loadPath: 'https://raw.githubusercontent.com/Hasan-1994/jsontest/master/{{lng}}/translation.json',
+        //loadPath: 'https://www.sivrikaya.de/wp-content/plugins/json-content-importer/json/BTour/{{lng}}/translation.json',
+        loadPath: 'https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/translations/{{lng}}/translation.json?token=AIL2AXMER4LITKTLAZGWEDK76DXBC',
         parse: (data) =>{
             return data;
         },
@@ -39,13 +38,6 @@ i18n
 
 });
 export default i18n;
-
-
-
-
-
-
-
 
 
 // import i18n from 'i18next';
