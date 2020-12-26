@@ -19,7 +19,7 @@ export default class HomeScreen extends Component {
     }
 
     componentDidMount() {
-        fetch('https://raw.githubusercontent.com/Hasan-1994/jsontest/master/info2.json')
+        fetch('https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/info.json?token=AIL2AXKIFYCHKKIWIQV4BTS76DXLM')
             .then((Response) => Response.json())
             .then((json) => {
                 this.setState({ data: json.attractions });
