@@ -8,7 +8,7 @@ const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
 
 //General imports
-import DESCRIPTION from './discripESG'
+import DESCRIPTION from './descripESG'
 import LangBtn from '../../../backend/Language/languageButton'
 import IV from './imageViewer';
 import MAP from '../../localisation/maps2'

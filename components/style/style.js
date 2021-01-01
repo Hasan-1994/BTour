@@ -12,7 +12,7 @@ module.exports = StyleSheet.create({
         backgroundColor: '#00aeff',
         //height:windowHeight
     },
-    discriptionView: {
+    descriptionView: {
         //backgroundColor: '#ccd6d9',
         backgroundColor: '#f5fffa',
         borderColor: '#333333',
@@ -34,7 +34,7 @@ module.exports = StyleSheet.create({
 
         elevation: 13,
     },
-    discriptionText: {
+    descriptionText: {
         //marginHorizontal: 10,
         //padding: 10,
         //borderRadius: 3,

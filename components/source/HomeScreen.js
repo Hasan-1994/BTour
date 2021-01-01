@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { View, Text, FlatList, TouchableOpacity, ActivityIndicator, Alert, ImageBackground, LogBox } from 'react-native';
 
+//Navigation Imports
 import { navigateByItemId } from '../route/screenChooser';
-import Flag from '../backend/Language/languageButton'
+
+
+//Style Imports
 import style from '../style/style';
 
 
@@ -19,7 +22,7 @@ export default class HomeScreen extends Component {
     }
 
     componentDidMount() {
-        fetch('https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/info.json?token=AIL2AXKIFYCHKKIWIQV4BTS76DXLM')
+        fetch('https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/info.json')
             .then((Response) => Response.json())
             .then((json) => {
                 this.setState({ data: json.attractions });

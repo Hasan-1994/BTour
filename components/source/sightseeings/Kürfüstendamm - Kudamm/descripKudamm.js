@@ -13,16 +13,16 @@ var style = require('../../../style/style')
 import ReadMore from 'react-native-read-more-text';
 
 
-function discripPP() {
+function discripKudamm() {
     const { t, i18n } = useTranslation();
     return (
-        <View style={style.discriptionView}>
+        <View style={style.descriptionView}>
             <ReadMore numberOfLines={4}>
-                <Text style={style.discriptionText}>
-                    {t('PotsdamerPlatz.discription')}
+                <Text style={style.descriptionText}>
+                    {t('Kudam.description')}
                 </Text>
             </ReadMore>
         </View>
     )
 }
-export default discripPP;
+export default discripKudamm;

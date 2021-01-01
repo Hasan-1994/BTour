@@ -2,49 +2,49 @@
     "Alexanderplatz": {
         "id": 1,
         "name": "Alexanderplatz",
-        "discription": "Alexanderplatz, Mitte bölgesinde yer alır ve Berlin'in en ünlü ve en büyük meydanlarından biridir. Adını Rusya'nın eski imparatoru I. İskender'den almıştır. Alexanderplatz Berlin'in doğu merkezi ve bu nedenle çok önemli bir ulaşım merkezidir. Alexanderplatz'ın ortasında Almanya'nın en büyük kulesi bulunmaktadır. 368 metre büyüklüğünde ve aynı zamanda Avrupa'nın en büyük kamu binası olan TV kulesi. Kulenin içinde, ziyaretçiler Berlin'in ayaklarının dibine koyduğu muhteşem 360° bir manzaraya sahiptir.",
+        "description": "Alexanderplatz, Mitte bölgesinde yer alır ve Berlin'in en ünlü ve en büyük meydanlarından biridir. Adını Rusya'nın eski imparatoru I. İskender'den almıştır. Alexanderplatz Berlin'in doğu merkezi ve bu nedenle çok önemli bir ulaşım noktasıdır. Alexanderplatz'ın ortasında Almanya'nın en büyük kulesi bulunmaktadır. 368 metre büyüklüğünde olan TV kulesi, aynı zamanda Avrupa'nın en büyük kamu binasıdır. Kulenin içinde, ziyaretçiler Berlin'i ayaklarının dibine koyan muhteşem 360° bir manzaraya sahiptir.",
         "latitude": 52.5219846,
         "longitude": 13.4111173
     },
     "BrandenburgerTor":{
         "id": 2,
         "name": "Brandenburger Kapısı",
-        "discription": "Brandenburg Kapısı 1788 ve 1791 yılları arasında inşa edilmiş ve gümrük duvarının yerine şimdilik kullanılmıştır. Geçit on iki Dorik sütun, her iki tarafta altı oluşur. Sütunlar birlikte beş pasaj oluşturur. Kapının tepesinde Roma zafer tanrıçası Victoria'yı görebilirsiniz. Dört at tarafından çekilen bir arabada duruyor, Quadriga. Bu çağda, Brandenburg Kapısı, 17 Haziran sokak ile birlikte, Berlin'de bir toplama noktasıdır. Bir milyondan fazla insanı barındırabilir. Sahne gösterileri, partiler ve havai fişekler düzenli olarak, eteklerinde gerçekleşecek.",
+        "description": "Brandenburg Kapısı 1788 ve 1791 yılları arasında inşa edilmiş ve ilk başta gümrük duvarının yerine kullanılmıştır. Geçit her iki tarafta altı tane olmak üzere on iki Dorik sütun oluşur. Sütunlar birlikte beş pasaj oluşturur. Kapının tepesinde Roma zafer tanrıçası Victoria'yı dört at tarafından çekilen, Quadriga isimli bir arabada dikilirken görebilirsiniz. Bugünlerde, Brandenburg Kapısı, \"Straße des 17. Juni\" ile birlikte, Berlin'de bir toplama noktasıdır. Bir milyondan fazla insanı barındırabilir. Düzenli olarak sahne gösterileri, partiler ve havai fişek etkinlikleri gerçekleşir.",
         "latitude": 52.516275,
         "longitude": 13.377704
     },
     "EastSideGalary":{
         "id": 3,
         "name": "East Side Galary",
-        "discription": "Ostbahnhof ve Oberbaumbrücke arasındaki Berlin Duvarı'nın en uzun süre ayakta kalan bölümü 'Doğu Yakası Galerisi' olarak dünyaca ünlü oldu. Berlin Duvarı'nın yıkılmasından sonra, 21 ülkeden 118 sanatçı eski sınır unsurunun 1,3 kilometresinde dünyanın en uzun açık hava galerisini tasarladı. Alman tümeninin üstesinden gelmenin ve aynı zamanda insanlık dışı DDR sınır rejiminin tarihi bir ifadesi olarak sevinç sembolü olan East Side Gallery, bugün Berlin'in en çok ziyaret edilen turistik tatil beldelerinden biridir.",
+        "description": "Ostbahnhof ve Oberbaumbrücke arasındaki Berlin Duvarı'nın en uzun süre ayakta kalan bölümü 'Doğu Yakası Galerisi' olarak dünyaca ünlü oldu. Berlin Duvarı'nın yıkılmasından sonra, 21 ülkeden 118 sanatçı eski sınır unsurunun 1,3 kilometresinde dünyanın en uzun açık hava galerisini tasarladı. Alman tümeninin üstesinden gelmenin ve aynı zamanda insanlık dışı DDR sınır rejiminin tarihi bir ifadesi olarak sevinç sembolü olan East Side Gallery, bugün Berlin'in en çok ziyaret edilen turistik tatil beldelerinden biridir.",
         "latitude": 52.5090062,
         "longitude": 13.4324769
     },
     "Kudam":{
         "id": 4,
         "name": "Kurfüstendamm - Kudam",
-        "discription": "Kurfürstendamm 1542 yılında Berlin Şehir Sarayı'ndan Grunewald Av Kalesi'ne bir baraj yolu olarak inşa edilmiş ve başlangıçta Elector Joachim II için bir binicilik yolu olarak hizmet vermiştir. II. Dünya Savaşı sırasında binanın önemli bir kısmı hava saldırıları yla tahrip edildi. Yeniden yapılanma, Soğuk Savaş sırasında Kurfürstendamm'ı Batı için bir vitrine ve ekonomik mucizenin sembolü haline getirerek gerçekleştirdi. Şehrin bölünmesinden sonra, 1948 yılında para reformu sonra, Batı Berlin iş merkezi, City West, burada, özellikle doğu ucunda Hayvanat Bahçesi istasyonu yönünde gelişti. 'Ku'damm' terimi özet oldu.",
+        "description": "Kurfürstendamm 1542 yılında Berlin Şehir Sarayı'ndan Grunewald Av Kalesi'ne bir baraj yolu olarak inşa edilmiş ve başlangıçta Elector Joachim II için bir binicilik yolu olarak hizmet vermiştir. II. Dünya Savaşı sırasında binanın önemli bir kısmı hava saldırılarıyla tahrip edildi. Kurfürstendamm, Batı için bir vitrine dönüştürülecek ve Soğuk Savaş esnasındaki ekonomik mucizenin sembolü haline getirilecek şekilde yeniden inşa edildi. Şehrin bölünmesinden ve 1948 yılındaki para reformu sonra, Batı Berlin iş merkezi, City West, burada, özellikle Hayvanat Bahçesi istasyonu yönünde doğu ucunda gelişti. Halk diline kısaca 'Ku'damm' olarak geçti.",
         "latitude": 52.5044145,
         "longitude": 13.3351804
     },
     "Museumsinsel":{
         "id": 5,
         "name": "Museumsinsel",
-        "discription": "Spree ve Bakır Çukur arasında, binaları 19. Schinkel'in planlarına göre inşa edilen Eski Müze'nin 1830 yılında çok sayıda topluluğu tamamlanmıştır. 1999 yılında müze adasının bina topluluğu UNESCO tarafından Dünya Mirası Ilan edildi. Müze Adası, Çeşitli Berlin müzelerinin önemli koleksiyonlarının bir araya getirildiği Prusya Kültür Mirası Vakfı'nın beş müze binasından oluşmaktadır: Pergamon Müzesi, eski müze, yeni müze, eski Ulusal Galeri ve Bode Müzesi.",
+        "description": "Spree ve Kupfergraben arasında, arkeoloji koleksiyonları ve 19uncu yüzyıla ait sanat parçalarına ev sahipliği yapan binalarıyla dünyaca ünlü Müze Adası bulunur. Schinkel'in planlarına göre inşa edilen Eski Müze'nin 1830 yılında çok sayıda topluluğu tamamlanmıştır. 1999 yılında müze adasının bina topluluğu UNESCO tarafından Dünya Mirası ilan edildi. Müze Adası, çeşitli Berlin müzelerinin önemli koleksiyonlarının bir araya getirildiği Prusya Kültür Mirası Vakfı'nın beş müze binasından oluşmaktadır: Pergamon Müzesi, eski müze, yeni müze, eski Ulusal Galeri ve Bode Müzesi.",
         "latitude": 52.515717,
         "longitude": 13.3970524
     },
     "PotsdamerPlatz":{
         "id": 6,
         "name": "Potsdamer Platz",
-        "discription": "Her şey, Berlin'in 14 şehir kapısından biri olan Potsdamer Tor'un önünde beş kollu bir yol kavşağı olan Potsdamer Tor'un önündeki 'Platz' ile başladı. 1838 yılında, Potsdam Fernbahnhof burada açıldı. Birkaç on yıl içinde, meydan bir metropol alışveriş merkezi ve hatta Avrupa'nın en işlek meydanlarından biri haline geldi. İkinci Dünya Savaşı sırasında, Potsdamer Platz neredeyse tamamen yok edildi. Sadece Huth Şarap Evi ve Hotel Esplanade harabeleri 1945 yılında daha önce çok canlı bir meydanda yer almıştır. Savaşın sona ermesinden sonra, Potsdamer Platz ilk sovyet, İngiliz ve Amerikan sektörleri arasında 'üç sınır' oldu ve gelişen bir karaborsa olarak kabul edildi. 1961'den 1989'a kadar Berlin Duvarı'nın inşa edildiği yıl olan Potsdamer Platz, Berlin'deki en geniş ölüm şeridine sahip, şehir içi büyük bir çorak araziydi. Ancak 9 Kasım 1989'da Berlin Duvarı'nın yıkılmasıyla birlikte site aniden tekrar ilgi odağı oldu. Neredeyse bir gecede, on yıllardır boş duran yerde tamamen yeni bir durum ortaya çıktı. Potsdamer Platz her gün Berlin, Almanya ve yurtdışından 110.000 ziyaretçi yitirir: konforlu ofisler, geniş yeşil alanlar, birinci sınıf eğlencenin yanı sıra çok çeşitli gastronomi ve alışveriş olanaklarıyla çok yönlü teklifin keyfini çıkarabilirsiniz.",
+        "description": "Her şey, Berlin'in 14 şehir kapısından biri olan Potsdamer Tor'un önünde beş kollu bir yol kavşağı olan Potsdamer Tor'un önündeki 'Platz vor dem Potsdamer Tor' ile başladı. 1838 yılında, Potsdam uzun mesafe tren istasyonu burada açıldı. Birkaç on yıl içinde, meydan bir metropol alışveriş merkezi ve hatta Avrupa'nın en işlek meydanlarından biri haline geldi. İkinci Dünya Savaşı sırasında, Potsdamer Platz neredeyse tamamen yok edildi. 1945 yılında, öncesinde hayat dolu olan bölgede, sadece Huth Şarap Evi ve Hotel Esplanade harabeleri ayakta kalmıştır. Savaşın sona ermesinden sonra, Potsdamer Platz Sovyet, İngiliz ve Amerikan sektörleri arasında 'üç sınır' oldu ve gelişen bir karaborsa olarak kabul edildi. Berlin Duvarı'nın inşa edildiği yıl olan 1961'den 1989'a kadar Potsdamer Platz, Berlin'deki en geniş ölüm şeridine sahip, şehir içinde büyük bir çorak araziydi. Ancak 9 Kasım 1989'da Berlin Duvarı'nın yıkılmasıyla birlikte bölge aniden tekrar ilgi odağı oldu. Neredeyse bir gecede, on yıllardır boş duran yerde tamamen yeni bir durum ortaya çıktı. Potsdamer Platz her gün Berlin, Almanya ve yurtdışından 110.000 ziyaretçi tarafından ilgi görür: konforlu ofisler, geniş yeşil alanlar, birinci sınıf eğlencenin yanı sıra çok çeşitli gastronomi ve alışveriş olanaklarıyla çok yönlü teklifin keyfini çıkarabilirsiniz.",
         "latitude": 52.5096488,
         "longitude": 13.3737554
     },
     "Reichstag":{
         "id": 7,
         "name": "Reichstag",
-        "discription": "Reichstag binası 1894 yılında inşa edilmiştir. Dört köşe kuleile karakterize edilen ayırt edici kubbe, hem binadaki ışık etkisi hem de binanın genel estetik etkisi nedeniyle o dönemde teknik bir başyapıttı. Reichstag binası 1999 yılından beri Alman Bundestag'ın merkezidir. 1994'ten beri Federal Meclis, Almanya Federal Başkanı'nın seçilmesi için burada toplanıyor.",
+        "description": "Reichstag binası 1894 yılında inşa edilmiştir. Dört köşe kule ile karakterize edilen ayırt edici kubbe, hem binadaki ışık etkisi hem de binanın genel estetik etkisi nedeniyle o dönemde teknik bir başyapıttı. Reichstag binası 1999 yılından beri Alman Bundestag'ın merkezidir. 1994'ten beri Federal Meclis, Almanya Federal Başkanı'nın seçilmesi için burada toplandı.",
         "latitude": 52.518620,
         "longitude": 13.3739985
     },
@@ -58,10 +58,10 @@
     "ViewText":{
         "Navigate": "Haritada göster  ",
         "ChangeLng": "Dil",
-        "ChooseLng": "Lütfen bir Dil seciniz!",
+        "ChooseLng": "Lütfen bir dil seçiniz!",
         "InfoPage": "Bilgilendirme!",
         "About": "Uygulama hakkında",
-        "AboutApp": "Bu uygulama bir tez in bir parçası olarak geliştirilmiştir. Ticari amaçlar için kulanılmamaktadır!"
+        "AboutApp": "Bu uygulama bir tezin bir parçası olarak geliştirilmiştir. Ticari amaçlar için kulanılmamaktadır!"
     }
 
 }

@@ -18,9 +18,9 @@ i18n
         useSuspense: false
     },
     backend:{
-        // token probleme
-        //loadPath: 'https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/translations/{{lng}}/translation.json?token=AIL2AXJ3XYRBXKUMSVNBZQK76DXNC',
-        loadPath: 'https://raw.githubusercontent.com/Hasan-1994/jsontest/master/{{lng}}/translation.json',
+        
+        loadPath: 'https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/translations/{{lng}}/translation.json',
+        //loadPath: 'https://raw.githubusercontent.com/Hasan-1994/jsontest/master/{{lng}}/translation.json',
         parse: (data) =>{
             return data;
         },

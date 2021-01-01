@@ -13,16 +13,16 @@ var style = require('../../../style/style')
 import ReadMore from 'react-native-read-more-text';
 
 
-function discripESG() {
+function discripRT() {
     const { t, i18n } = useTranslation();
     return (
-        <View style={style.discriptionView}>
+        <View style={style.descriptionView}>
             <ReadMore numberOfLines={4}>
-                <Text style={style.discriptionText}>
-                    {t('EastSideGalary.discription')}
+                <Text style={style.descriptionText}>
+                    {t('Reichstag.description')}
                 </Text>
             </ReadMore>
         </View>
     )
 }
-export default discripESG;
+export default discripRT;

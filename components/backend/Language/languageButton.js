@@ -1,7 +1,6 @@
 import React from 'react';
 import {
     View,
-    Text,
     TouchableOpacity,
     Image,
     Alert
@@ -11,8 +10,9 @@ import {
 import I18n from '../i18n/i18next';
 const initI18n = I18n;
 import { useTranslation } from 'react-i18next';
+
+//Style Imports
 var style = require('../../style/style')
-//var Flag = require('../translations/de/translation.json')
 
 function languageButton (){
 

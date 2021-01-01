@@ -1,5 +1,5 @@
 //General imports
-import React, { } from 'react';
+import React from 'react';
 import { View, Text } from 'react-native';
 
 //LanguagePack imports
@@ -13,16 +13,16 @@ var style = require('../../../style/style')
 import ReadMore from 'react-native-read-more-text';
 
 
-function discripRT() {
+function discripAlex() {
     const { t, i18n } = useTranslation();
     return (
-        <View style={style.discriptionView}>
+        <View style={style.descriptionView}>
             <ReadMore numberOfLines={4}>
-                <Text style={style.discriptionText}>
-                    {t('Reichstag.discription')}
+                <Text style={style.descriptionText}>
+                    {t('Alexanderplatz.description')}
                 </Text>
             </ReadMore>
         </View>
     )
 }
-export default discripRT;
+export default discripAlex;
