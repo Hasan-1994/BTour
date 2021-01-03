@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 import DESCRIPTION from './descripAlex'
 import LangBtn from '../../../backend/Language/languageButton'
 import IV from './imageViewer';
-import MAP from '../../localisation/maps2'
+import MAP from '../../localisation/maps'
 
 //Style Imports
 var style = require('../../../style/style')
@@ -32,46 +32,7 @@ function alexanderplatz() {
         <LangBtn />
       </View>
     </ScrollView>
-
-
-
   )
-
-  // return (
-  //     <View style={{width: '100%', height:'100%'}}>
-
-  //         <View style={style.discriptionView}>
-  //                 <Text style={style.discriptionText}>
-  //                     {t('Alexanderplatz.discription')}
-  //                 </Text>
-  //         </View>
-  //         <IV/>
-
-  //         <LangBtn />
-  //         <MAP data={'Alexanderplatz'}/>
-  //     </View>
-
-  // <View style={style.mainContainer}>
-  //         <IV/>
-  //     <View style={style.discriptionView}>
-
-  //         <ReadMore numberOfLines={4}>
-  //         <Text style={style.discriptionText}>
-  //                     {t('Alexanderplatz.discription')}
-  //                 </Text>
-  //         </ReadMore>
-
-  //         </View>
-  //         <Text style={{bottom:'65%'}}>
-  //        {t("ViewText.Navigate")} {t('Alexanderplatz.name')}
-  //     </Text>
-  //     <MAP data={'Alexanderplatz'}/>
-  //     <LangBtn />
-  //     </View>
-  // )
-
-
-
 
 }
 export default alexanderplatz;

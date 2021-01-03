@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text, FlatList, TouchableOpacity, ActivityIndicator, Alert, ImageBackground, LogBox } from 'react-native';
 
-//Navigation Imports
+//Route Imports
 import { navigateByItemId } from '../route/screenChooser';
-
 
 //Style Imports
 import style from '../style/style';
 
-
 LogBox.ignoreAllLogs();
 export default class HomeScreen extends Component {
-
     constructor(props) {
         super(props);
-
         this.state = {
             data: [],
             isLoading: true,
@@ -33,11 +29,10 @@ export default class HomeScreen extends Component {
             })
     }
     render() {
-
         const { data, isLoading, } = this.state;
         return (
 
-            <View style={{backgroundColor: 'blue'}}>
+            <View style={{backgroundColor: '#00aeff'}}>
 
                 { isLoading ? <View style={style.Loader}>
                     <Text>

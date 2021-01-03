@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 import DESCRIPTION from './descripRT'
 import LangBtn from '../../../backend/Language/languageButton'
 import IV from './imageViewer';
-import MAP from '../../localisation/maps2'
+import MAP from '../../localisation/maps'
 
 //Style Imports
 var style = require('../../../style/style')

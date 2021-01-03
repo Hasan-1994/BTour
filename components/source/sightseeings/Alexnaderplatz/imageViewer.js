@@ -1,6 +1,6 @@
 //General imports
 import React, { useEffect, useState } from 'react';
-import { View, Image, ActivityIndicator, TouchableOpacity, ImageBackground, Alert } from 'react-native';
+import {View, Image} from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 
 

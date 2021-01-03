@@ -11,7 +11,7 @@ export const navigateByItemId = (id) => {
             Actions.jump('Brandenburger Tor');
             break;
         case 3:
-            Actions.jump('EastSideGalary');
+            Actions.jump('EastSideGallary');
             break;
         case 4:
             Actions.jump('Kürfüstenstraße - Kudam');

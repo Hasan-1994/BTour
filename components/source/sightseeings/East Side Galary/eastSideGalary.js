@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 import DESCRIPTION from './descripESG'
 import LangBtn from '../../../backend/Language/languageButton'
 import IV from './imageViewer';
-import MAP from '../../localisation/maps2'
+import MAP from '../../localisation/maps'
 
 //Style Imports
 var style = require('../../../style/style')
@@ -25,7 +25,7 @@ function eastSideGalary() {
         <DESCRIPTION />
         <View style={style.discriptionView}>
           <Text style={style.discriptionText}>
-            {t("ViewText.Navigate")}{t('EastSideGalary.name')}
+            {t("ViewText.Navigate")}{t('EastSideGallery.name')}
           </Text>
         </View>
         <MAP data='East Side Galary' />

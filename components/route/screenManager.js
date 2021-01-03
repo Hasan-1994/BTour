@@ -55,9 +55,9 @@ const App = () => {
                 <Scene key='Brandenburger Tor'
                     component={BBT}
                     title={t("BrandenburgerTor.name")} />
-                <Scene key='EastSideGalary'
+                <Scene key='EastSideGallary'
                     component={ESG}
-                    title='East Side Galary' />
+                    title='East Side Gallary' />
                 <Scene key='Kürfüstenstraße - Kudam'
                     component={KD}
                     title="Kürfüstenstraße - Kudam" />

@@ -19,7 +19,7 @@ function discripESG() {
         <View style={style.descriptionView}>
             <ReadMore numberOfLines={4}>
                 <Text style={style.descriptionText}>
-                    {t('EastSideGalary.description')}
+                    {t('EastSideGallery.description')}
                 </Text>
             </ReadMore>
         </View>

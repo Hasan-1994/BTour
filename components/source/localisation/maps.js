@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import {
     View,
-    Text,
     TouchableOpacity,
-    ImageBackground,
-    Dimensions,
     Image,
-    Button
     } from 'react-native'
 import { Popup} from 'react-native-map-link'
 
@@ -14,9 +10,7 @@ import { Popup} from 'react-native-map-link'
 //Style imports
 var style = require("../../style/style");
 
-function maps2 (props){
-    const windowWidth = Dimensions.get('window').width;
-    const windowHeight = Dimensions.get('window').height;
+function maps (props){
     const [isVisible, setIsVisible] = useState(false);
     const options = {
         latitude: null,
@@ -40,4 +34,4 @@ function maps2 (props){
             </View>
         )
 }
-export default maps2;
+export default maps;
