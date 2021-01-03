@@ -15,7 +15,7 @@ function imageViewer() {
   useEffect(() => {
     fetch('https://raw.githubusercontent.com/Hasan-1994/jsontest/master/info.json')
       .then((response) => response.json())
-      .then((json) => setData(json.EastSideGallery))
+      .then((json) => setData(json.eastSideGallary))
       .catch((error) => console.error(error))
       .finally(() => setLoading(false));
   }, []);
