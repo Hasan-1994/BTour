@@ -13,7 +13,7 @@ function imageViewer() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/Hasan-1994/jsontest/master/info.json')
+    fetch('https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/info.json')
       .then((response) => response.json())
       .then((json) => setData(json.eastSideGallary))
       .catch((error) => console.error(error))
