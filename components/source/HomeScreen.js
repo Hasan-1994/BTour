@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, FlatList, TouchableOpacity, ActivityIndicator, Alert, ImageBackground, LogBox } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity, ActivityIndicator, Alert, ImageBackground, LogBox,Dimensions } from 'react-native';
 
 //Route Imports
 import { navigateByItemId } from '../route/screenChooser';
@@ -32,7 +32,7 @@ export default class HomeScreen extends Component {
         const { data, isLoading, } = this.state;
         return (
 
-            <View style={{backgroundColor: '#00aeff'}}>
+            <View style={style.mainContainer}>
 
                 { isLoading ? <View style={style.Loader}>
                     <Text>
@@ -40,24 +40,22 @@ export default class HomeScreen extends Component {
                     </Text>
                     <ActivityIndicator size='large' color="#141194" />
                 </View> : <FlatList
-                        style={{ padding: 10 }}
-                        contentContainerStyle={{justifyContent: 'space-between'}}
+                        style={style.Flatlist}
                         data={data}
                         keyExtractor={({ id }, index) => id}
                         renderItem={({ item }) => (
 
                             <TouchableOpacity
-                                onPress={() => { navigateByItemId(item.id)}}>
+                                onPress={() => { navigateByItemId(item.id)}} style={style.buttonFlatlist}>
                                     
-                                 <ImageBackground source={{ uri: item.titleBild }} style={style.backgroundFlatList}>
-                                    <Text style={{ fontSize: 45, textAlign: 'center', marginTop:35, fontWeight:'bold'}}>{item.title}</Text>
+                                 <ImageBackground source={{ uri: item.titleBild }} style={style.backgroundImageFlatList}>
+                                    <Text style={style.textFlatlist}>{item.title}</Text>
                                 </ImageBackground> 
 
                             </TouchableOpacity>
                         )}
 
                     />}
-
             </View>
         )
     }

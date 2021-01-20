@@ -24,7 +24,7 @@ function alexanderplatz() {
         <IV />
         <DESCRIPTION />
         <View style={style.discriptionView}>
-          <Text style={style.discriptionText}>
+          <Text style={style.discriptionText} >
             {t("ViewText.Navigate")}{t('Alexanderplatz.name')}
           </Text>
         </View>

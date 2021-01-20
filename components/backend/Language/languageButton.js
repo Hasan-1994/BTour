@@ -22,25 +22,25 @@ function languageButton (){
             <TouchableOpacity style={style.buttonContainer}
                 onPress={() => I18n.changeLanguage('de')}>
                 <Image style={style.flag}
-                 source={{uri: 'https://i.ibb.co/yB2ZgW9/deutschland-1.png'}}/>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={style.buttonContainer}
-            onPress={() => I18n.changeLanguage('tr')}>
-                <Image style={style.flag}
-                source={{uri: 'https://i.ibb.co/QpG5Drx/iconfinder-263-Ensign-Flag-Nation-turkey-2634440.png'}}/>
+                 source={{uri: 'https://i.ibb.co/7rsTssR/germany-31017-1280.png'}}/>
             </TouchableOpacity>
 
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('en')}>
                 <Image style={style.flag}
-                  source={{uri: 'https://i.ibb.co/g6c8xqX/iconfinder-United-Kingdom-2361499.png'}}/>
+                  source={{uri: 'https://i.ibb.co/59Rdcv5/union-jack-26119-1280.png'}}/>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={style.buttonContainer}
+            onPress={() => I18n.changeLanguage('tr')}>
+                <Image style={style.flag}
+                source={{uri: 'https://i.ibb.co/5297NHX/turkish-flag-1774834-1280.jpg'}}/>
             </TouchableOpacity>
 
             <TouchableOpacity style={style.buttonContainer}
             onPress={() => I18n.changeLanguage('es'), ()=> Alert.alert("Error",t("BUTTONS.ALERT_NOTAVABLIE"))}>
                 <Image style={style.flag}
-                  source={{uri: 'https://i.ibb.co/vH94n8r/ES-Spain-Flag-icon.png'}}/>
+                  source={{uri: 'https://i.ibb.co/F0NLwJp/spain-28530-1280.png'}}/>
             </TouchableOpacity>
             
         </View>

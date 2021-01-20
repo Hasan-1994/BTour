@@ -16,7 +16,7 @@
     "EastSideGallery": {
         "id": 3,
         "name": "East Side Gallery",
-        "description": "The longest remaining section of the Berlin Wall between Ostbahnhof and Oberbaumbrücke has become world famous as the 'East Side Gallery'. 118 artists from 21 countries created the world's longest open-air gallery on 1.3 kilometres of the former border element after the fall of the Wall. As a symbol of joy at the overcoming of German division and at the same time as a historical testimony to the inhumane GDR border regime, the East Side Gallery is today one of the most visited tourist sites in Berlin.",
+        "description": "The longest remaining section of the Berlin Wall between the Ostbahnhof and the Oberbaumbrücke has become world famous as the 'East Side Gallery'. 118 artists from 21 countries created the world's longest open-air gallery on 1.3 kilometres of the former border element after the fall of the Wall. As a symbol of joy at the overcoming of German division and at the same time as a historical testimony to the inhumane GDR border regime, the East Side Gallery is today one of the most visited tourist sites in Berlin.",
         "latitude": 52.5090062,
         "longitude": 13.4324769
     },
@@ -30,21 +30,21 @@
     "Museumsinsel": {
         "id": 5,
         "name": "Museumsinsel",
-        "description": "Between the Spree and the Kupfergraben lies the world-famous Museum Island, whose buildings house the archaeological collections and art of the 19th century.The ensemble comprising numerous buildings was the completion of the Altes Museum, built according to plans by Schinkel, in 1830. In 1930, the buildings on the Museum Island were completed with the Pergamon Museum. In 1999, the ensemble of buildings on Museum Island was designated a World Heritage Site by UNESCO. The Museum Island consists of five museum buildings belonging to the Prussian Cultural Heritage Foundation, which bring together important collections from various Berlin museums: The Pergamon Museum, the Old Museum, the New Museum, the Old National Gallery and the Bode Museum.",
+        "description": "Between the Spree and the Kupfergraben lies the world-famous Museum Island, whose buildings house the archaeological collections and art of the 19th century. The numerous buildings include the Old Museum, built according to Schinkel's plans in 1830.  In 1930, the buildings on the Museum Island were completed with the Pergamon Museum. In 1999, the ensemble of buildings on Museum Island was designated a World Heritage Site by UNESCO. The Museum Island consists of five museum buildings belonging to the Prussian Cultural Heritage Foundation, which bring together important collections from various Berlin museums: The Pergamon Museum, the Old Museum, the New Museum, the Old National Gallery and the Bode Museum.",
         "latitude": 52.515717,
         "longitude": 13.3970524
     },
     "PotsdamerPlatz": {
         "id": 6,
         "name": "Potsdamer Platz",
-        "description": "It all began with the 'Platz vor dem Potsdamer Tor', a five-armed street intersection in front of the Potsdamer Tor - one of Berlin's 14 city gates. In 1838, the Potsdam long-distance railway station was opened here. Within a few decades, the square developed into a metropolitan goods transfer point and even one of the busiest squares in Europe. During the Second World War, Potsdamer Platz was almost completely destroyed. Only the Weinhaus Huth and the ruins of the Hotel Esplanade still stood on the previously lively square in 1945. After the end of the war, Potsdamer Platz initially became the 'three-country corner' between the Soviet, British and American sectors and was considered a thriving black market. From 1961, the year the Wall was built, until 1989 Potsdamer Platz, with Berlin's widest death strip, was a large inner-city wasteland. It was only with the fall of the Berlin Wall on 9 November 1989 that the area suddenly became the centre of interest again. Virtually overnight, a completely new situation arose on the square that had lain fallow for decades. Every day, Potsdamer Platz attracts 110,000 visitors from Berlin, Germany and abroad: they enjoy the multifaceted offer with comfortable offices, extensive green spaces, first-class entertainment as well as diverse gastronomy and shopping.",
+        "description": "It all began with the 'Platz vor dem Potsdamer Tor', a five-armed street intersection in front of the Potsdamer Tor. In 1838, the Potsdam long-distance railway station was opened here. Within a few decades, the square developed into a metropolitan goods transfer point and even one of the busiest squares in Europe. During the Second World War, Potsdamer Platz was almost completely destroyed. Only the Weinhaus 'Huth' and the ruins of the Hotel 'Esplanade' remained standing. After the end of the war, Potsdamer Platz initially became the 'three-country corner' between the Soviet, British and American sectors and was considered a thriving black market. From 1961, the year the Wall was built, until 1989 Potsdamer Platz, with Berlin's widest death strip, was a large inner-city wasteland. It was only with the fall of the Berlin Wall that the area suddenly became the centre of interest again. Virtually overnight, a completely new situation arose on the square that had lain fallow for decades. Every day, Potsdamer Platz attracts 110,000 visitors from Berlin, Germany and abroad: they enjoy the multifaceted offer with extensive green spaces, first-class entertainment as well as diverse gastronomy and shopping.",
         "latitude": 52.5096488,
         "longitude": 13.3737554
     },
     "Reichstag": {
         "id": 7,
         "name": "Reichstag",
-        "description": "The Reichstag building was built in 1894. The distinctive dome, which is characterised by the four corner towers, was a technical masterpiece at the time, both for reasons of the lighting effect in the building and for reasons of the overall aesthetic effect of the building. The Reichstag building has been the seat of the German Bundestag since 1999. Since 1994, the Federal Assembly has also met here to elect the German Federal President.",
+        "description": "The Reichstag building was built in 1894. The distinctive dome, which is characterised by the four corner towers, was a technical masterpiece at the time. Due to the light effect in the building as well as the overall aesthetic effect of the building, it was declared indispensable. The Reichstag building has been the seat of the German Bundestag since 1999. Since 1994, the Federal Assembly has also met here to elect the German Federal President.",
         "latitude": 52.518620,
         "longitude": 13.3739985
     },

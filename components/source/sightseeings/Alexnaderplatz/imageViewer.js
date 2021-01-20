@@ -31,9 +31,9 @@ function imageViewer() {
     <View style={style.carouselPlacemant}>
       <Carousel
         layout={"tinder"}
-        //layoutCardOffset={`0`}
+        layoutCardOffset={`3`}
         loop={true}
-        //ref={ref => carousel = ref}
+        ref={ref => carousel = ref}
         data={data}
         sliderWidth={50}
         itemWidth={300}

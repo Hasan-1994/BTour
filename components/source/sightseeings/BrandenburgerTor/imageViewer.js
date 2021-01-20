@@ -13,7 +13,7 @@ function imageViewer() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/Hasan-1994/jsontest/master/info.json')
+    fetch('https://raw.githubusercontent.com/Hasan-1994/BTour/master/components/backend/info.json')
       .then((response) => response.json())
       .then((json) => setData(json.brandenburgerTor))
       .catch((error) => console.error(error))
@@ -31,9 +31,7 @@ function imageViewer() {
     <View style={style.carouselPlacemant}>
       <Carousel
         layout={"tinder"}
-        //layoutCardOffset={`0`}
         loop={true}
-        //ref={ref => carousel = ref}
         data={data}
         sliderWidth={50}
         itemWidth={300}
